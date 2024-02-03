@@ -55,10 +55,23 @@ class Fund(Instrument):
         Fund.fundList.append(self)
 
     def __str__(self):
-        return f'Fund ID: {self.id} Name: {self.name} Current Price: {self.rate/100} Symbol: {self.symbol}'
+        return f'Fund ID: {self.id} Name: {self.name} Fund Category: {self.category} Managing Organisation: {self.organisation} Current Price: {self.currentPrice/100} Symbol: {self.symbol}'
     
     def __repr__(self):
-        return f'Currency(\'{self.name}\', \'{self.code}\', {str(self.rate/100)})'
+        return f'Fund(\'{self.name}\', {self.currentPrice/100}, \'{self.shortForm}\', \'{self.category}\', \'{self.subCategory}\', \'{self.organisation}\')'
+    
+    def initializeFunds():
+        """Initializes FOLLOWING 9 Portfolio Funds: MAC, AFA, YAS, YBE, TKF, AFV, YKT, YAY, YZG"""
+        MAC = Fund("Marmara Capıtal Portföy Hisse Senedi (TL) Fonu (Hisse Senedi Yoğun Fon)", 47, "MAC", "Hisse Senedi Fonları", "", "Marmara Capital Portföy")
+        AFA = Fund("Ak Portföy Amerika Yabancı Hisse Senedi Fonu", 51, "AFA", "Hisse Senedi Fonları", "", "Ak Portföy")
+        YAS = Fund("Yapı Kredi Portföy Koç Holding İştirak ve Hisse Senedi Fonu (Hisse Senedi Yoğun Fon)", 1107, "YAS", "Hisse Senedi Fonları", "", "Yapı Kredi Portföy")
+        YBE = Fund("YYapı Kredi Portföy Eurobond (Dolar) Borçlanma Araçları Fonu", 93, "YBE", "Borçlanma Araçları Fonları", "", "Yapı Kredi Portföy")
+        TKF = Fund("Tacirler Portföy Hisse Senedi Fonu (Hisse Senedi Yoğun Fon)", 3710, "TKF", "Hisse Senedi Fonları", "", "Tacirler Portföy")
+        AFV = Fund("Ak Portföy Avrupa Yabancı Hisse Senedi Fonu", 27, "AFV", "Hisse Senedi Fonları", "", "Ak Portföy")
+        YKT = Fund("Yapı Kredi Portföy Altın Fonu", 28, "YKT", "Kıymetli Madenler Fonları", "", "Yapı Kredi Portföy")
+        YAY = Fund("Yapı Kredi Portföy Yabancı Teknoloji Sektörü Hisse Senedi Fonu", 63143, "YAY", "Hisse Senedi Fonları", "", "Yapı Kredi Portföy")
+        YZG = Fund("Yapı Kredi Portföy Gümüş Fon Sepeti Fonu", 320, "YZG", "Fon Sepeti Fonları", "", "Yapı Kredi Portföy")
+
 class Currency(Instrument):
     id = 0
     currencyList = list()
@@ -92,8 +105,8 @@ class Currency(Instrument):
         return f'Currency(\'{self.name}\', \'{self.code}\', {str(self.rate/100)})'
     
     def initializeCurrencies():
+        """Intializes USD, Euro and Turkish Lira Currency Types"""
         usDollars = Currency("US Dollar", "USD", 3049.07, "$")
         euro = Currency("Euro", "EUR", 3294.97, "€")
         tl = Currency("Turkish Lira", "TLR", 100.0, "₺")
-
 

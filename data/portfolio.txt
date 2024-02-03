@@ -1,0 +1,10 @@
+shortForm;name;category;piece;average_unit_price;current_unit_price
+AFA;Ak Portföy Amerika Yabancı Hisse Senedi Fonu;Hisse Senedi Fonları;149581;0,35;0,51
+AFV;Ak Portföy Avrupa Yabancı Hisse Senedi Fonu;Hisse Senedi Fonları;196866;0,23;0,27
+MAC;Marmara Capıtal Portföy Hisse Senedi (TL) Fonu (Hisse Senedi Yoğun Fon);Hisse Senedi Fonları;240509;0,35;0,47
+TKF;Tacirler Portföy Hisse Senedi Fonu (Hisse Senedi Yoğun Fon);Hisse Senedi Fonları;2122;31,78;37,1
+YAS;Yapı Kredi Portföy Koç Holding İştirak ve Hisse Senedi Fonu (Hisse Senedi Yoğun Fon);Hisse Senedi Fonları;10376;9,11;11,07
+YAY;Yapı Kredi Portföy Yabancı Teknoloji Sektörü Hisse Senedi Fonu;Hisse Senedi Fonları;1;600,22;631,43
+YBE;Yapı Kredi Portföy Eurobond (Dolar) Borçlanma Araçları Fonu;Borçlanma Araçları Fonları;43839;0,57;0,93
+YKT;Yapı Kredi Portföy Altın Fonu;Kıymetli Madenler Fonları;42593;0,28;0,28
+YZG;Yapı Kredi Portföy Gümüş Fon Sepeti Fonu;Fon Sepeti Fonları;315;3,17;3,2

@@ -1,6 +1,6 @@
 class Instrument:
     
-    def __init__(self, name, price, shortForm, symbol=None):
+    def __init__(self, name,  shortForm, symbol=None):
         """All instrument types (fund, currency etc.) will inherited from this class
         
         Parameters
@@ -16,7 +16,7 @@ class Instrument:
         
         """
         self.name = name
-        self.currentPrice = price
+        
         self.shortForm = shortForm
         self.symbol = symbol
     
@@ -26,7 +26,7 @@ class Fund(Instrument):
     fundList = list() # each created fund will be appended to the fundList()
 
     def __init__(self, name, price, shortForm, category, subCategory, organisation, symbol=None):
-        super().__init__(name, price, shortForm, symbol)
+        super().__init__(name,  shortForm, symbol)
         """Investment funds are modeled here. Inherited from Instrument Class.
         Parameters
         ----------
@@ -47,6 +47,7 @@ class Fund(Instrument):
         
         """
         Fund.fundId += 1
+        self.price = price
         self.category = category
         self.subCategory = subCategory
         self.organisation = organisation
@@ -76,7 +77,7 @@ class Currency(Instrument):
     id = 0
     currencyList = list()
 
-    def __init__(self, name, shortForm, price, symbol = None):
+    def __init__(self, name, shortForm, buyingPrice, sellingPrice, symbol = None):
         """ Models currencies.
         Parameters
         ----------
@@ -89,14 +90,18 @@ class Currency(Instrument):
         symbol : str, optional
             symbol of the Currency
         """
-        super().__init__(name, price, shortForm, symbol)
+        super().__init__(name, shortForm, symbol = "",  buyingPrice = None, sellingPrice = None)
         Currency.id += 1
         self.name = name
+        self.buyingPrice = buyingPrice
+        self.sellingPrice = sellingPrice
         self.code = shortForm
-        self.rate = price
         self.symbol = symbol
+        self.valueHistory = dict()
         self.id = Currency.id
         Currency.currencyList.append(self)
+    def initializeCurrencyTypes():
+        pass
     
     def __str__(self):
         return f'Currrency ID: {self.id} Name: {self.name} Current Rate: {self.rate/100} Symbol: {self.symbol}'
@@ -109,4 +114,24 @@ class Currency(Instrument):
         usDollars = Currency("US Dollar", "USD", 3049.07, "$")
         euro = Currency("Euro", "EUR", 3294.97, "€")
         tl = Currency("Turkish Lira", "TLR", 100.0, "₺")
+
+class Portfolio:
+    id = 0
+    portfolioList = list()
+
+    def __init__(self, name):
+        """This class will Simulate Portfolios where all the investment
+        instruments are hold
+        Parameters
+        ----------
+        name : str
+            Name of the Portfolio.
+        """
+        Portfolio.id += 1
+        self.name = name
+        self.instrumentList = list()
+        self.valueHistory = list()
+        self.currentValue = 0
+        self.valueHistory = dict()
+
 

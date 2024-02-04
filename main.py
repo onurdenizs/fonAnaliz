@@ -1,5 +1,6 @@
 from data import readPortfolio
 import sys
+from models.DovizKurlari import DovizKurlari
 
 sys.path.insert(0, r'C:\Users\onurd\OneDrive\Masaüstü\PhD\codingPractices\fonAnaliz\tests\models')
 from models.models import Currency, Fund
@@ -19,10 +20,13 @@ class InitialTests:
         print("\n-----------------------------")
         print("Printing Fund List:")
         print("-----------------------------")
-
+        
         for fund in Fund.fundList:
             print(fund)
-        
+        ornek = DovizKurlari()
+        print("\n-----------------------------")
+        print(ornek.Arsiv(2, 1, 2017,"USD", "BanknoteBuying" ))
+        print("\n-----------------------------")
     
     
 

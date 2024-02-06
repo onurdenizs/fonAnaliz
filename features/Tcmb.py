@@ -51,10 +51,30 @@ class Tcmb:
         return groupNamesEng
 @total_ordering
 class Category:
-    """Data categories of EVDS data
+    """Data categories of EVDS data. EVDS data has a 3 level hierchical data architecture. 
+        Categories are the top of the Hierarch level. Hierchical order can be summerised as follow:
+        ----------------------------->
+        Category (1)
+            DaraGroup (X)
+                DataSerie (A)
+                DataSerie (B)
+            DataGroup (Y)
+                DataSerie (C)
+                DataSerie (D)
+                DataSerie (E)
+                DataSerie (F)
+        Category (2)
+            .
+            .
+            .
+        ----------------------------->
+        Each category may have several Data Groups but a Data Group can be belong to only one Category.
+        Similarly each Data Group can have multiple Data Series, but a Data Serie can only be belong to only one DataGroup.
+
         each EVDS data category has following 3 properties: 
         1) CATEGORY_ID (ex: 1.0)
         2) TOPIC_TITLE_ENG (ex: MARKET DATA (CBRT)) 
+        3) TOPIC_TITLE_TR (ex: PİYASA VERİLERİ (TCMB))
     """
     categoryList = list()
     def __init__(self, evdsCategoryId, topicEng = None , topicTur = None) -> None:
@@ -174,7 +194,10 @@ class Category:
     def create_categories_from_id_list(categoryIdList):
         """Creates categories with the each category Id in the given list"""
 class DataGroup:
-    """Data Groups of each of EVDS data Category
+    """Data Groups of each of EVDS data Category. Data Group is a sub-level of a Category. Data Group also 
+       acts as the container of Data Series. Each Data Group belongs to a single category, and each Data Group can have
+       more than one Data Serie. each Data Group has a unique property called data group code 
+       (ex: 'Open Market Repo and Reverse Repo Transactions' Data Group's unique code is: 'bie_pyrepo')
         Data Greoup properties are:
         1) CATEGORY_ID (ex: 1.0)
         2) DATAGROUP_CODE (ex: bie_pyrepo)
@@ -186,7 +209,7 @@ class DataGroup:
         8) END_DATE (ex: 01-08-2020 day-month-year)
     """
     dataGroupList = list()
-    def __init__(self, evdsCategoryId, code, nameTr, nameEng, frqStr, frq, sDate, eDate, dataSerieList = list()):
+    def __init__(self, evdsCategoryId, code, nameTr, nameEng, frqStr, frq, startDate, endDate):
         """Gets 7 mandatory parameters for a DataGroup object and creates a DataGroup object
         Parameters
         ----------
@@ -199,15 +222,14 @@ class DataGroup:
         nameEng : str
             Data Group Title in English Langauge (evdsDataFrame[DATAGROUP_NAME_ENG]) 
         frqStr : str
-            Data frequncy in string (evdsDataFrame[FREQUENCY_STR]) 
+            Data frequency in string (evdsDataFrame[FREQUENCY_STR]) 
         frq : str
-            Data frequncy in str(float) (evdsDataFrame[FREQUENCY]) 
-        sDate : str
+            Data frequnecy in str(float) (evdsDataFrame[FREQUENCY]) 
+        startDate : str
             Data Group start date in str(float) (evdsDataFrame[START_DATE])
-        eDate : str
+        endDate : str
             Data Group end date in str(float) (evdsDataFrame[END_DATE])
-        dataSerieList: list()
-            Not mandatory, all the data Series of the related Data Group can be hold here
+        
         
         Returns
         -------
@@ -219,9 +241,9 @@ class DataGroup:
         self.nameEng = nameEng
         self.frqStr = frqStr
         self.frq = frq
-        self.startDate = sDate
-        self.endDate = eDate
-        self.dataSerieList = dataSerieList
+        self.startDate = startDate
+        self.endDate = endDate
+        self.dataSerieList = list()
         DataGroup.dataGroupList.append(self)
     def get_category_of_dataGroup(self):
         pass
@@ -370,8 +392,61 @@ class DataGroup:
         
     
 class DataSerie:
-    pass
+    """DataSerie is the sub-category of a DataGroup. For each DataGroup there can be several DataSeries. 
+    Each data serie has a unique code. For example: 'TP.MK.CUM.YTL' is the unique code of the data serie Cumhuriyet Gold Selling Price (TRY/Number) (Archive)
+    DataSeries are the conatiners of actual data.
+    
+    Following are the most important properties of a DataSerie: 
+    1) SERIE_CODE (ex: TP.MK.CUM.YTL)
+    2) DATAGROUP_CODE (ex: bie_mkaltytl)
+    3) SERIE_NAME (ex: Cumhuriyet Altını Satış Fiyatı (TL/Adet) (Arşiv))
+    4) SERIE_NAME_ENG (ex: Cumhuriyet Gold Selling Price (TRY/Number) (Archive))
+    5) FREQUENCY_STR (ex: AYLIK)
+    6) DEFAULT_AGG_METHOD (ex: ORTALAMA)
+    7) START_DATE (ex: 01-12-1950)
+    8) END_DATE (ex: 01-10-2023)
+    """
+    id = 0
+    def __init__(self, code, dataGroupCode, titleTr, titleEng, frqStr, aggMethod, startDate, endDate ) -> None:
+         """Gets 8 mandatory parameters for a DataSerie object and creates a DataSerie object.
         
+        Parameters
+        ----------
+        code : str
+            unique code of the DataSerie itself (evdsDataFrame[SERIE_CODE])
+        dataGroupCode : str
+            unique code of the DataGroup which this DataSerie object belongs to (evdsDataFrame[DATAGROUP_CODE])   
+        titleTr : str
+            Data Serie Title in Turkish Langauge (evdsDataFrame[SERIE_NAME]) 
+        titleEng : str
+            Data Serie Title in English Langauge (evdsDataFrame[SERIE_NAME_ENG]) 
+        frqStr : str
+            Data frequency in string (evdsDataFrame[FREQUENCY_STR]) 
+        aggMethod : str
+            Data Serie aggregation method (evdsDataFrame[DEFAULT_AGG_METHOD]) 
+        startDate : str
+            Data Serie start date in str(float) (evdsDataFrame[START_DATE])
+        endDate : str
+            Data Serie end date in str(float) (evdsDataFrame[END_DATE])
+       
+        Returns
+        -------
+        
+        """
+         DataSerie.id += 1
+         self.code = code
+         self.dataGroupCode = dataGroupCode
+         self.titleTr = titleTr
+         self.titleEng = titleEng
+         self.frqStr = frqStr
+         self.aggMethod = aggMethod
+         self.startDate = startDate
+         self.endDate = endDate
+         self.id = DataSerie.id
+         
+         
+    def get_dataSerie_infos_from_evds(apiKey, dropLabels = True):
+        pass    
 a = Tcmb(apiKey="xyh5URAL0e")
 data, columnLabelList = Category.get_category_infos_from_evds("xyh5URAL0e")
 data2, columnLabelList2 = DataGroup.get_dataGroup_infos_from_evds("xyh5URAL0e") 

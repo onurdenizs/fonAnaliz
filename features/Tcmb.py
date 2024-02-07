@@ -4,6 +4,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from evds import evdsAPI 
 from functools import total_ordering
+import xml.etree.ElementTree as et
+import os
+import openpyxl
+import xlsxwriter
 pd.options.mode.copy_on_write = True
 
 class Tcmb:
@@ -31,14 +35,37 @@ class Tcmb:
         self.apiKey = apiKey
         self.categoryList = categoryList
         
+    def write_data_into_excel_file(fileName, sheetNameList, dataList, writingMode = "w"):
+        """creates an
+        Parameters
+        ----------
+        fileName : str
+            filename without extension
+        sheetsheetNameListName : list of str
+            name of the sheet to write on in the excel file
+        dataList : list of pandas.dataFrame
+            data to be written on excel file
+        writingMode : str
+            default is 'w' for write mode, can be set equal to 'a' for append mode
+        Returns
+        -------
         
+        """
+        for i in range (0,len(dataList)):
+
+            if os.path.exists(fileName+".xlsx"):
+                with pd.ExcelWriter(fileName+".xlsx", mode='a', engine="openpyxl", if_sheet_exists="overlay") as writer:
+                    dataList[i].to_excel(writer, sheet_name=sheetNameList[i])  
+            else:
+                with pd.ExcelWriter(fileName+".xlsx") as writer:
+                    dataList[i].to_excel(writer, sheet_name=sheetNameList[i])
+    
+ 
     
     def getDataGroupInfo(self):
         """Returns all the info related to TCMB EVDS data Groups. These are the Data you can get from EVDS""" 
         data = pd.read_csv("https://evds2.tcmb.gov.tr/service/evds/datagroups/key="+self.apiKey+"&mode=0&type=csv")
 
-        
-         
         #print(ana_veri.head(20))
         
         #for i in range(0,len(ana_veri)):
@@ -137,6 +164,9 @@ class Category:
         data = pd.read_csv("https://evds2.tcmb.gov.tr/service/evds/categories/key="+apiKey+"&type=csv")
         columnLabelList = data.columns.values.tolist()
         return data, columnLabelList
+    
+    
+    
     def return_dataFrame_into_category_list(categoriesDataFrame, idColumnName, engTitleColumnName, turTitleColumnName):
         """Turns given dataFrame object which hold the data categories information(CATEGORY_ID, TOPIC_TITLE_ENG, TOPIC_TITLE_TR)
         into a list with categories
@@ -443,13 +473,104 @@ class DataSerie:
          self.startDate = startDate
          self.endDate = endDate
          self.id = DataSerie.id
+
+    def get_dataSerie_infos_of_dataGroup(apiKey, dataGroupCode):
+        """Gets Data Serie infos of given Data Group Code.
+        Parameters
+        ----------
+        apiKey : str
+            Personal Api Key
+        dataGroupCode : str 
+            unique Code of the data group that being interested 
+            for example if you want to get all data series for data group cold "Gold Prices (Averaged) - Free Market (TRY) /Archive)", 
+            then dataGroupCode should be given as 'bie_mkaltytl'
+            
+        
+        Returns
+        -------
+        data : pandas.DataFrame
+            dataFrame includes all the data Serie infos of related Data Group
+        columnLabelList : list()
+            list of the column labels
+        """ 
+        try:
+            data = pd.read_csv("https://evds2.tcmb.gov.tr/service/evds/serieList/key="+apiKey+"&type=csv&code="+dataGroupCode)
+        except pd.errors.EmptyDataError:
+            data = "No DATA"
+        return data
          
-         
-    def get_dataSerie_infos_from_evds(apiKey, dropLabels = True):
-        pass    
+    def get_dataSerie_infos_from_evds(apiKey, dataGroupList, dropLabels = True):
+        """Gets infos of all the Data Series listed in EVDS
+        Parameters
+        ----------
+        apiKey : str
+            Personal Api Key
+        dataGroupList : list()
+            List that counatains all the unique Data group codes in EVDS database
+            
+        
+        Returns
+        -------
+        data : pandas.DataFrame
+            dataFrame includes all the dat Serie infos in EVDS
+        columnLabelList : list()
+            list of the column labels
+        """
+        headerWriting = True
+        dataList = list()
+        fileName = "Series.txt"
+        numberOfDataGroups = len(dataGroupList)
+        listFileName = "seriesList.txt"
+        if os.path.exists(listFileName):
+            f = open(listFileName, "r")
+            serieReadLines = f.readlines()
+            serieList = [line.rstrip() for line in serieReadLines]
+            #serieList =  f.readline().split("\n")
+            #serieList = allSerieData.replace('\n', ' ')
+            print("initially len serieList  = {0}".format(str(len(serieList))))
+
+            f.close() 
+
+            #print(serieList)
+
+        else:
+            print("serieList is initially empty")
+            serieList = list()
+
+        for group in dataGroupList:
+            print("len serieList = {0}".format(str(len(serieList))))
+            
+            if group.code not in serieList:
+                groupData = DataSerie.get_dataSerie_infos_of_dataGroup(apiKey, group.code)
+                
+                if not isinstance(groupData,str):
+                    groupData = groupData.drop(["DEFAULT_AGG_METHOD_STR", "TAG", "TAG_ENG", "DATASOURCE", "DATASOURCE_ENG", "METADATA_LINK", "METADATA_LINK_ENG", "REV_POL_LINK", "REV_POL_LINK_ENG", "APP_CHA_LINK", "APP_CHA_LINK_ENG"],  axis= 'columns')
+                    if os.path.exists(fileName):
+                        headerWriting = False
+                    groupData.to_csv(fileName, sep=';', header=headerWriting, index=False, mode='a', encoding='utf-8')
+                    serieList.append(group.code)
+                    f = open(listFileName, "a")
+                    f.write(group.code+"\n")
+                    f.close()
+                    dataList.append(groupData)
+                    numberOfDataGroups -= 1
+                    print("Data Group: {0} - {1} to go".format(group.code, str(numberOfDataGroups)))
+                    #print("Retrieved Data Serie for data group: "+ group.code + " len(data): "+ str(len(groupData)) + str(numberOfDataGroups)+"/"+str(len(dataGroupList)) +" Data Groups to Go")
+                else:
+                    print("No Data can be gathered for group code: "+ groupData)
+            else: 
+                print("Data Group: {0} is skipped".format(group.code))
+
+        return dataList   
+    def turn_csv_to_dataSeries_dataframe(filename): 
+        data = pd.read_csv(filename, sep=";")
+        columnLabelList = data.columns.values.tolist() 
+        return data, columnLabelList
+        
 a = Tcmb(apiKey="xyh5URAL0e")
 data, columnLabelList = Category.get_category_infos_from_evds("xyh5URAL0e")
 data2, columnLabelList2 = DataGroup.get_dataGroup_infos_from_evds("xyh5URAL0e") 
+data3, columnLabelList3 = DataSerie.turn_csv_to_dataSeries_dataframe("Series.txt")
 #print(data2["CATEGORY_ID"].iloc[-1])
 #print(columnLabelList2)
 #for col in data.columns:
@@ -464,11 +585,22 @@ cat = evds.main_categories
 myCategoryList = Category.return_dataFrame_into_category_list(data,columnLabelList[0], columnLabelList[1], columnLabelList[2])
 myDataGroupList = DataGroup.return_dataFrame_into_dataGroup_list(data2, columnLabelList2[0], columnLabelList2[1], columnLabelList2[2], columnLabelList2[3], columnLabelList2[4], columnLabelList2[5], columnLabelList2[6], columnLabelList2[7])
 DataGroup.match_dataGroupList_items_with_Categories(myDataGroupList)
+#serieDataList = list()
 
+#serieDataList.append(DataSerie.get_dataSerie_infos_from_evds('xyh5URAL0e', myDataGroupList[395:])) 
+
+#dataSS = DataSerie.get_dataSerie_infos_of_dataGroup('xyh5URAL0e', "bie_mkaltytl")
+#print(data3["DATAGROUP_CODE"].head(20))
 #anyCat = Category.get_category_by_id_in_a_list("2.0")
-#print(anyCat.turkishTitle)
+
 #print(len(myCategoyList[0].dataGroupList))
 #print(myDataGroupList[1].categoryId)
 #print(cat.head(5))
 
 
+
+
+#print(columnLabelList3)
+sheets = ["Categories", "Data Groups", "Data Series"]
+dataList = [data, data2, data3]
+Tcmb.write_data_into_excel_file("EVDS", sheets, dataList)

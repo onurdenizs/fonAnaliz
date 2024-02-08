@@ -1,13 +1,8 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 from evds import evdsAPI 
 from functools import total_ordering
-import xml.etree.ElementTree as et
 import os
-import openpyxl
-import xlsxwriter
+
 pd.options.mode.copy_on_write = True
 
 class Tcmb:
@@ -60,22 +55,26 @@ class Tcmb:
                 with pd.ExcelWriter(fileName+".xlsx") as writer:
                     dataList[i].to_excel(writer, sheet_name=sheetNameList[i])
     
- 
-    
     def getDataGroupInfo(self):
         """Returns all the info related to TCMB EVDS data Groups. These are the Data you can get from EVDS""" 
         data = pd.read_csv("https://evds2.tcmb.gov.tr/service/evds/datagroups/key="+self.apiKey+"&mode=0&type=csv")
-
-        #print(ana_veri.head(20))
-        
-        #for i in range(0,len(ana_veri)):
-        #    print("Index : "+str(i)+" " +str(ana_veri["DATAGROUP_NAME_ENG"].iloc[i]))
         return data
     def getDataNames(self):
         """Gets name of each Data Groups in TCMB EVDS"""
         ana_veri = self.getDataGroupInfo()
         groupNamesEng = ana_veri.columns
         return groupNamesEng
+    def update_evds_data(apiKey):
+        
+        categoryData, columnLabelList = Category.get_category_infos_from_evds("xyh5URAL0e")
+        groupData, columnLabelList2 = DataGroup.get_dataGroup_infos_from_evds("xyh5URAL0e") 
+        serieData, columnLabelList3 = DataSerie.turn_csv_to_dataSeries_dataframe("Series.txt")
+        myCategoryList = Category.return_dataFrame_into_category_list(categoryData,columnLabelList[0], columnLabelList[1], columnLabelList[2])
+        myDataGroupList = DataGroup.return_dataFrame_into_dataGroup_list(groupData, columnLabelList2[0], columnLabelList2[1], columnLabelList2[2], columnLabelList2[3], columnLabelList2[4], columnLabelList2[5], columnLabelList2[6], columnLabelList2[7])
+        updatedCategoryData = DataGroup.match_dataGroupList_items_with_Categories(myDataGroupList, categoryData)
+        dataList = [updatedCategoryData, groupData, serieData]
+        sheets = ["Categories", "Data Groups", "Data Series"]
+        Tcmb.write_data_into_excel_file("EVDS", sheets, dataList)
 @total_ordering
 class Category:
     """Data categories of EVDS data. EVDS data has a 3 level hierchical data architecture. 
@@ -104,6 +103,7 @@ class Category:
         3) TOPIC_TITLE_TR (ex: PİYASA VERİLERİ (TCMB))
     """
     categoryList = list()
+    
     def __init__(self, evdsCategoryId, topicEng = None , topicTur = None) -> None:
         """Gets -CATEGORY_ID-, -TOPIC_TITLE_ENG-, -TOPIC_TITLE_TR-  parameters and creates a Category object
         Parameters
@@ -163,10 +163,9 @@ class Category:
         """
         data = pd.read_csv("https://evds2.tcmb.gov.tr/service/evds/categories/key="+apiKey+"&type=csv")
         columnLabelList = data.columns.values.tolist()
+        
         return data, columnLabelList
-    
-    
-    
+
     def return_dataFrame_into_category_list(categoriesDataFrame, idColumnName, engTitleColumnName, turTitleColumnName):
         """Turns given dataFrame object which hold the data categories information(CATEGORY_ID, TOPIC_TITLE_ENG, TOPIC_TITLE_TR)
         into a list with categories
@@ -194,6 +193,30 @@ class Category:
             categoryList.append(newCategory)
 
         return categoryList
+    def return_category_list_into_dataFrame(categoryList):
+        """Turns given list of category object into a dataFrame with columns (CATEGORY_ID, TOPIC_TITLE_ENG, TOPIC_TITLE_TR)
+        
+        Parameters
+        ----------
+        categoryList : list()
+            list of Categories
+
+        Returns
+        -------
+        data : pandas.dataFrame
+            dataFrame with columns (CATEGORY_ID, TOPIC_TITLE_ENG, TOPIC_TITLE_TR)
+        """
+        idList = list()
+        topicEng = list()
+        topicTr = list()
+        for category in categoryList:
+            idList.append(category.id)
+            topicEng.append(category.englishTitle)
+            topicTr.append(category.turkishTitle)
+        dict = {'CATEGORY_ID': idList, 'TOPIC_TITLE_ENG': topicEng, 'TOPIC_TITLE_TR': topicTr} 
+        data = pd.DataFrame(dict)
+        return data
+
     def get_category_by_id_in_a_list(evdsCategoryId, dataList):
         """Takes an id as string searches the category with that id and returns the found category if any.
         
@@ -259,8 +282,6 @@ class DataGroup:
             Data Group start date in str(float) (evdsDataFrame[START_DATE])
         endDate : str
             Data Group end date in str(float) (evdsDataFrame[END_DATE])
-        
-        
         Returns
         -------
         
@@ -297,8 +318,7 @@ class DataGroup:
                 dataString = data.loc[i, "CATEGORY_ID"] + ".0" 
                 
                 data.loc[i, "CATEGORY_ID"] = dataString #step 2.2
-                
-                             
+                   
     def get_dataGroup_infos_from_evds(apiKey, dropLabels = True):
         """Gets infos of all the Data Groups listed in EVDS
         Parameters
@@ -315,10 +335,7 @@ class DataGroup:
         columnLabelList : list()
             list of the column labels
         """
-        
-
-        
-        data = pd.read_csv("https://evds2.tcmb.gov.tr/service/evds/datagroups/key="+apiKey+"&mode=0&code=0&type=csv")
+        data = pd.read_csv("https://evds2.tcmb.gov.tr/service/evds/datagroups/key="+apiKey+"&mode=0&code=0&type=csv",dtype=str)
         if dropLabels:
             labelsToDrop = ["DATASOURCE", "DATASOURCE_ENG", "METADATA_LINK", "METADATA_LINK_ENG", "REV_POL_LINK", "REV_POL_LINK_ENG", "APP_CHA_LINK", "APP_CHA_LINK_ENG"]
             data = data.drop(labelsToDrop,  axis= 'columns')
@@ -381,46 +398,65 @@ class DataGroup:
                 foundDataGorups.append(grp)
         return foundDataGorups
     
-    def match_dataGroupList_items_with_Categories(dataGroupList):
+    def create_unnamed_categories_for_given_data_groups(categoryIdsToCreate):
+        """Takes a list of categoryIds to create new Categories for this ids.
+        Parameters
+        ----------
+        categoryIdsToCreate : list()
+            list of Category ids to be created
+        
+        Returns
+        ----------
+
+        categotyList : list()
+            list of newly created categories 
+
+        
+        """
+        categotyList = list()
+        for categoryId in categoryIdsToCreate:
+            categotyList.append(Category(categoryId))
+        return categotyList
+    def match_dataGroupList_items_with_Categories(dataGroupList, categoryDataFrame):
         """Takes a list which contains DataGroup objects and adds each DataGroup object in the list
         to the object's category.dataGroupList
         Parameters
         ----------
         dataGroupList : list()
             list to be searched for categories and matched
+        categoryDataFrame : pandas.dataFrame
+            data frame of Category infos from EVDS
+        Note: 
+
+        categoryDataFrame variable will be updated just in case if you get a new category id  when you request Data Group info from EVDS.
+        Reason: at 08.Feb.2024 when you request all the Data Groups from EVDS as . csv file you get category id = 0 for some Data Groups.
+        But when you request all the Category infos from EVDS as .csv you don't get any category with id = 0. But the data in category id is important. 
+        So this category with id = 0 or any category which is not in the EVDS category list are created with this function.
         """
         categoryIdsToCreate = list()
-        zeroCategoryCounter= 0
-        #print(len(Category.categoryList))
-        #print(len(Category.categoryList[5].dataGroupList))
         
 
         for grp in dataGroupList:
-            
             cat, index = Category.get_category_by_id_in_a_list(grp.categoryId, Category.categoryList)
-            if grp.categoryId == "0.0":
-                zeroCategoryCounter += 1
             if cat is not None:
-                #print(index)
-                #print(cat.turkishTitle)
-                #print(Category.categoryList[index].turkishTitle)
-                
-                #print("Append yapmadan önce bu Category {0} length'i {1}".format(cat.turkishTitle, str(len(cat.dataGroupList))))
                 cat.dataGroupList.append(grp)
-                #Category.categoryList[index].dataGroupList.append(grp)
-                #print("Append yaptıktan sonra bu Category {0} length'i {1}".format(cat.turkishTitle, str(len(cat.dataGroupList))))
             else:
-                if grp.categoryId not in categoryIdsToCreate:
-                    categoryIdsToCreate.append(grp.categoryId)
-        for categoryId in categoryIdsToCreate:
-            newCat = Category(categoryId)
-        #print(len(Category.categoryList))
-        #f or category in Category.categoryList:
-        #    print(category.turkishTitle)
-        #    print(len(category.dataGroupList))
+                foundCategory = grp.categoryId.replace(".0","")
+                if foundCategory not in categoryIdsToCreate:
+                    categoryIdsToCreate.append(foundCategory)
+        categoryList = list()
+        if len(categoryIdsToCreate) > 0:
+            categoryList = DataGroup.create_unnamed_categories_for_given_data_groups(categoryIdsToCreate)
+            newlyCreatedCategoryDataFrame = Category.return_category_list_into_dataFrame(categoryList)
+            #print(newlyCreatedCategoryDataFrame["CATEGORY_ID"])
+            data = pd.concat([newlyCreatedCategoryDataFrame, categoryDataFrame], ignore_index=True)
+            columnList = list(categoryDataFrame.columns)
+            
+            return data
+        else:
+            return categoryDataFrame
+            
 
-        
-    
 class DataSerie:
     """DataSerie is the sub-category of a DataGroup. For each DataGroup there can be several DataSeries. 
     Each data serie has a unique code. For example: 'TP.MK.CUM.YTL' is the unique code of the data serie Cumhuriyet Gold Selling Price (TRY/Number) (Archive)
@@ -463,7 +499,7 @@ class DataSerie:
         -------
         
         """
-         DataSerie.id += 1
+         
          self.code = code
          self.dataGroupCode = dataGroupCode
          self.titleTr = titleTr
@@ -472,7 +508,7 @@ class DataSerie:
          self.aggMethod = aggMethod
          self.startDate = startDate
          self.endDate = endDate
-         self.id = DataSerie.id
+         
 
     def get_dataSerie_infos_of_dataGroup(apiKey, dataGroupCode):
         """Gets Data Serie infos of given Data Group Code.
@@ -507,42 +543,30 @@ class DataSerie:
             Personal Api Key
         dataGroupList : list()
             List that counatains all the unique Data group codes in EVDS database
-            
-        
+
         Returns
         -------
         data : pandas.DataFrame
             dataFrame includes all the dat Serie infos in EVDS
-        columnLabelList : list()
-            list of the column labels
         """
         headerWriting = True
         dataList = list()
         fileName = "Series.txt"
-        numberOfDataGroups = len(dataGroupList)
+        
         listFileName = "seriesList.txt"
         if os.path.exists(listFileName):
             f = open(listFileName, "r")
             serieReadLines = f.readlines()
             serieList = [line.rstrip() for line in serieReadLines]
-            #serieList =  f.readline().split("\n")
-            #serieList = allSerieData.replace('\n', ' ')
             print("initially len serieList  = {0}".format(str(len(serieList))))
-
             f.close() 
-
-            #print(serieList)
-
         else:
-            print("serieList is initially empty")
             serieList = list()
-
         for group in dataGroupList:
             print("len serieList = {0}".format(str(len(serieList))))
             
             if group.code not in serieList:
                 groupData = DataSerie.get_dataSerie_infos_of_dataGroup(apiKey, group.code)
-                
                 if not isinstance(groupData,str):
                     groupData = groupData.drop(["DEFAULT_AGG_METHOD_STR", "TAG", "TAG_ENG", "DATASOURCE", "DATASOURCE_ENG", "METADATA_LINK", "METADATA_LINK_ENG", "REV_POL_LINK", "REV_POL_LINK_ENG", "APP_CHA_LINK", "APP_CHA_LINK_ENG"],  axis= 'columns')
                     if os.path.exists(fileName):
@@ -553,54 +577,94 @@ class DataSerie:
                     f.write(group.code+"\n")
                     f.close()
                     dataList.append(groupData)
-                    numberOfDataGroups -= 1
-                    print("Data Group: {0} - {1} to go".format(group.code, str(numberOfDataGroups)))
-                    #print("Retrieved Data Serie for data group: "+ group.code + " len(data): "+ str(len(groupData)) + str(numberOfDataGroups)+"/"+str(len(dataGroupList)) +" Data Groups to Go")
-                else:
-                    print("No Data can be gathered for group code: "+ groupData)
-            else: 
-                print("Data Group: {0} is skipped".format(group.code))
-
         return dataList   
     def turn_csv_to_dataSeries_dataframe(filename): 
         data = pd.read_csv(filename, sep=";")
         columnLabelList = data.columns.values.tolist() 
         return data, columnLabelList
+    def getDataSerie_with_code(dataSerieCode):
+        """
+        Gets a unique code to find the data Serie which this code belongs to
+        for example if you want to Find the data serie called '(USD) US Dollar (Buying)' dataSerieCode should be: 'TP.DK.USD.A.YTL'
+        Parameters
+        ----------
+        dataSerieCode : str
+            unique data serie code (ex: TP.DK.USD.A.YTL)
         
-a = Tcmb(apiKey="xyh5URAL0e")
-data, columnLabelList = Category.get_category_infos_from_evds("xyh5URAL0e")
-data2, columnLabelList2 = DataGroup.get_dataGroup_infos_from_evds("xyh5URAL0e") 
-data3, columnLabelList3 = DataSerie.turn_csv_to_dataSeries_dataframe("Series.txt")
-#print(data2["CATEGORY_ID"].iloc[-1])
-#print(columnLabelList2)
-#for col in data.columns:
-#    print(col)
 
+        Returns
+        -------
+        dataSerie : DataSerie object
+            if no data Serie object is found it returns none
+        
+        """
+        data = pd.read_csv("Series.txt", sep=";")
+        for i in range(0,len(data)):
+            
+            if data.loc[i,"SERIE_CODE"] == dataSerieCode:
+                dataSerie = DataSerie(data.loc[i,"SERIE_CODE"],data.loc[i,"DATAGROUP_CODE"], data.loc[i,"SERIE_NAME"], data.loc[i,"SERIE_NAME_ENG"], data.loc[i,"FREQUENCY_STR"], data.loc[i,"DEFAULT_AGG_METHOD"], data.loc[i,"START_DATE"], data.loc[i,"END_DATE"])
+                return dataSerie
+           
 
+    def get_data_from_evds_with_dataSerie_code(apiKey, dataSerieCode, allData = False, startDay=None, startMonth=None, startYear=None, endDay=None, endMonth=None, endYear=None):
+        """
+        Gets a DataSerie object, and returns it's data as pandas.Dataframe object between given start date and end date.
+        Parameters
+        ----------
+        apiKey : str
+            Personal Api Key
+        dataSerieCode : str
+            unique code of Data Serie interested
+        startDay : str
+            day
+        startMonth : str
+            month
+        startYear : str
+            year
+        endDay : str
+            day
+        endMonth : str
+            month
+        endYear : str
+            year
 
-
-evds = evdsAPI('xyh5URAL0e') 
-dat2 = evds.get_data(['TP.DK.USD.A.YTL','TP.MK.CUM.YTL'], startdate="01-01-2017", enddate="31-12-2018")  
-cat = evds.main_categories
-myCategoryList = Category.return_dataFrame_into_category_list(data,columnLabelList[0], columnLabelList[1], columnLabelList[2])
-myDataGroupList = DataGroup.return_dataFrame_into_dataGroup_list(data2, columnLabelList2[0], columnLabelList2[1], columnLabelList2[2], columnLabelList2[3], columnLabelList2[4], columnLabelList2[5], columnLabelList2[6], columnLabelList2[7])
-DataGroup.match_dataGroupList_items_with_Categories(myDataGroupList)
-#serieDataList = list()
-
-#serieDataList.append(DataSerie.get_dataSerie_infos_from_evds('xyh5URAL0e', myDataGroupList[395:])) 
-
-#dataSS = DataSerie.get_dataSerie_infos_of_dataGroup('xyh5URAL0e', "bie_mkaltytl")
-#print(data3["DATAGROUP_CODE"].head(20))
-#anyCat = Category.get_category_by_id_in_a_list("2.0")
-
-#print(len(myCategoyList[0].dataGroupList))
-#print(myDataGroupList[1].categoryId)
-#print(cat.head(5))
-
-
-
-
-#print(columnLabelList3)
-sheets = ["Categories", "Data Groups", "Data Series"]
-dataList = [data, data2, data3]
-Tcmb.write_data_into_excel_file("EVDS", sheets, dataList)
+        Returns
+        -------
+        data : pandas.DataFrame
+        
+        """
+        dataSerie = DataSerie.getDataSerie_with_code(dataSerieCode)
+        
+        if dataSerie != None:
+        
+            if startDay == None:
+                startDay = dataSerie.startDate[0:2]
+            elif len(startDay) == 1:
+                startDay = "0"+ startDay
+            if startMonth == None:
+                startMonth = dataSerie.startDate[3:5]
+            elif len(startMonth) == 1:
+                startMonth = "0" + startMonth
+            if startYear == None:
+                startYear = dataSerie.startDate[6:10]
+            if endDay == None:
+                endDay = dataSerie.endDate[0:2]
+            elif len(endDay) == 1:
+                endDay = "0"+ endDay
+            if endMonth == None:
+                endMonth = dataSerie.endDate[3:5]
+            elif len(endMonth) == 1:
+                endMonth = "0" + endMonth
+            if endYear == None:
+                endYear = dataSerie.endDate[6:10]
+                
+            sDate = startDay + "-" + startMonth + "-" + startYear
+            eDate = endDay + "-" + endMonth + "-" + endYear
+            evds = evdsAPI(apiKey) 
+            print("found data serie name: "+ dataSerie.titleEng)
+            
+            data = evds.get_data([dataSerie.code], startdate=sDate, enddate=eDate)  
+                
+            return data
+        else:
+            return None

@@ -1,0 +1,748 @@
+SERIE_NAME;END_DATE;START_DATE;DEFAULT_AGG_METHOD;SERIE_CODE;DATAGROUP_CODE;SERIE_NAME_ENG;FREQUENCY_STR
+Cumhuriyet Altn SatŸ Fiyat (TL/Adet) (ArŸiv);01-10-2023;01-12-1950;avg;TP.MK.CUM.YTL;bie_mkaltytl;Cumhuriyet Gold Selling Price (TRY/Number) (Archive);AYLIK
+Kl‡e Altn SatŸ Fiyat (TL/Gr) (ArŸiv);01-10-2023;01-12-1940;avg;TP.MK.KUL.YTL;bie_mkaltytl;Bullion Gold Selling Price (TRY/Gr) (Archive);AYLIK
+1 Ons Altn Londra SatŸ Fiyat (ABD Dolar/Ons) (ArŸiv);01-10-2023;01-12-1973;avg;TP.MK.LON.YTL;bie_mkaltytl;1 Ons Gold London Selling Price (USD/Ons) (Archive);AYLIK
+ReŸat Altn SatŸ Fiyat (TL/Adet) (ArŸiv);01-11-2017;01-12-1923;avg;TP.MK.RES.YTL;bie_mkaltytl;Resat Gold Selling Price (TRY/Number) (Archive);AYLIK
+A§rlkl Ortalama Faiz Oran;08-02-2019;07-01-2011;avg;TP.AOFO;bie_onrepof;Weighted Average Interest Rate;˜ GšNš
+(USD) ABD Dolar (D”viz AlŸ) (ArŸiv);08-02-2024;02-01-1950;avg;TP.DK.USD.A;bie_dkdovizgn;(USD) US Dollar (Buying) (Archive);GšNLšK
+(USD) ABD Dolar (D”viz SatŸ) (ArŸiv);08-02-2024;02-01-1950;avg;TP.DK.USD.S;bie_dkdovizgn;(USD) US Dollar (Selling) (Archive);GšNLšK
+(EUR) Euro (D”viz AlŸ) (ArŸiv);08-02-2024;04-01-1999;avg;TP.DK.EUR.A;bie_dkdovizgn;(EUR) Euro (Buying) (Archive);GšNLšK
+(EUR) Euro (D”viz SatŸ) (ArŸiv);08-02-2024;04-01-1999;avg;TP.DK.EUR.S;bie_dkdovizgn;(EUR) Euro (Selling) (Archive);GšNLšK
+(CHF) ˜svi‡re Frang (D”viz AlŸ) (ArŸiv);08-02-2024;02-01-1950;avg;TP.DK.CHF.A;bie_dkdovizgn;(CHF) Swiss Franc (Buying) (Archive);GšNLšK
+(CHF) ˜svi‡re Frang (D”viz SatŸ) (ArŸiv);08-02-2024;02-01-1950;avg;TP.DK.CHF.S;bie_dkdovizgn;(CHF) Swiss Franc (Selling) (Archive);GšNLšK
+(CNY) €in Yuan (D”viz AlŸ) (ArŸiv);08-02-2024;20-03-2012;avg;TP.DK.CNY.A;bie_dkdovizgn;(CNY) Chinese Yuan (Buying) (Archive);GšNLšK
+(CNY) €in Yuan (D”viz SatŸ) (ArŸiv);08-02-2024;20-03-2012;avg;TP.DK.CNY.S;bie_dkdovizgn;(CNY) Chinese Yuan (Selling) (Archive);GšNLšK
+(USD) ABD Dolar (Efektif AlŸ);08-02-2024;02-01-1990;avg;TP.DK.USD.A.EF;bie_dkefektif;(USD) US Dollar (Banknote Buying);GšNLšK
+(USD) ABD Dolar (Efektif SatŸ);08-02-2024;02-01-1990;avg;TP.DK.USD.S.EF;bie_dkefektif;(USD) US Dollar (Banknote Selling);GšNLšK
+(EUR) EURO (Efektif AlŸ);08-02-2024;02-01-2002;avg;TP.DK.EUR.A.EF;bie_dkefektif;(EUR) EURO (Banknote Buying);GšNLšK
+(EUR) EURO (Efektif SatŸ);08-02-2024;02-01-2002;avg;TP.DK.EUR.S.EF;bie_dkefektif;(EUR) EURO (Banknote Selling);GšNLšK
+1.Toplam(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS01.CARI;bie_yyebc;1.Total(Million USD);HAFTALIK(CUMA)
+1A.Yurti‡i Elinde Tutanlar(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS02.CARI;bie_yyebc;1A.Domestic Holders(Million USD);HAFTALIK(CUMA)
+1A1.Bankalar(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS03.CARI;bie_yyebc;1A1.Banks(Million USD);HAFTALIK(CUMA)
+1A2.BankadŸ Kesim(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS04.CARI;bie_yyebc;1A2.Non-Bank Sector(Million USD);HAFTALIK(CUMA)
+1A2a.Ger‡ek KiŸiler(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS05.CARI;bie_yyebc;1A2a.Households(Million USD);HAFTALIK(CUMA)
+1A2b.Tzel KiŸiler(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS06.CARI;bie_yyebc;1A2b.Legal Entity(Million USD);HAFTALIK(CUMA)
+1B.YurtdŸ Elinde Tutanlar(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS07.CARI;bie_yyebc;1B.Non-Resident Holders(Million USD);HAFTALIK(CUMA)
+1B1.Yurti‡i Bankalarn YurtdŸ ubeleri(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS08.CARI;bie_yyebc;1B1.Domestic Banks' Branches Abroad(Million USD);HAFTALIK(CUMA)
+1B4.YurtdŸ Di§er(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS11.CARI;bie_yyebc;1B4.Other(Million USD);HAFTALIK(CUMA)
+2.Stok D”viz Kompozisyonu (Toplam)(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS12.CARI;bie_yyebc;2.Currency Composition (Total)(Million USD);HAFTALIK(CUMA)
+2A.USD(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS13.CARI;bie_yyebc;2A.USD(Million USD);HAFTALIK(CUMA)
+2B.EUR (USD KarŸl§)(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS14.CARI;bie_yyebc;2B.EUR (in US Dollar)(Million USD);HAFTALIK(CUMA)
+2C.YEN (USD KarŸl§)(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS15.CARI;bie_yyebc;2C.YEN (in US Dollar)(Million USD);HAFTALIK(CUMA)
+1.Toplam(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS01.NOMINAL;bie_yyebn;1.Total(Million USD);HAFTALIK(CUMA)
+1A.Yurti‡i Elinde Tutanlar(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS02.NOMINAL;bie_yyebn;1A.Domestic Holders(Million USD);HAFTALIK(CUMA)
+1A1.Bankalar(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS03.NOMINAL;bie_yyebn;1A1.Banks(Million USD);HAFTALIK(CUMA)
+1A2.BankadŸ Kesim(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS04.NOMINAL;bie_yyebn;1A2.Non-Bank Sector(Million USD);HAFTALIK(CUMA)
+1A2a.Ger‡ek KiŸiler(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS05.NOMINAL;bie_yyebn;1A2a.Households(Million USD);HAFTALIK(CUMA)
+1A2b.Tzel KiŸiler(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS06.NOMINAL;bie_yyebn;1A2b.Legal Entity(Million USD);HAFTALIK(CUMA)
+1B.YurtdŸ Elinde Tutanlar(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS07.NOMINAL;bie_yyebn;1B.Non-Resident Holders(Million USD);HAFTALIK(CUMA)
+1B1.Yurti‡i Bankalarn YurtdŸ ubeleri(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS08.NOMINAL;bie_yyebn;1B1.Domestic Banks' Branches Abroad(Million USD);HAFTALIK(CUMA)
+1B4.YurtdŸ Di§er(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS11.NOMINAL;bie_yyebn;1B4.Other(Million USD);HAFTALIK(CUMA)
+2.Stok D”viz Kompozisyonu (Toplam)(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS12.NOMINAL;bie_yyebn;2.Currency Composition (Total)(Million USD);HAFTALIK(CUMA)
+2A.USD(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS13.NOMINAL;bie_yyebn;2A.USD(Million USD);HAFTALIK(CUMA)
+2B.EUR (USD KarŸl§)(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS14.NOMINAL;bie_yyebn;2B.EUR (in US Dollar)(Million USD);HAFTALIK(CUMA)
+2C.YEN (USD KarŸl§)(Milyon ABD Dolar);06-08-2021;30-12-2011;last;TP.BS15.NOMINAL;bie_yyebn;2C.YEN (in US Dollar)(Million USD);HAFTALIK(CUMA)
+0.GENEL (Tketici);01-01-2024;01-01-2003;avg;TP.FG.J0;bie_tukfiy4;0.GENERAL;AYLIK
+01.GIDA VE ALKOLSšZ ˜€ECEKLER;01-01-2024;01-01-2003;avg;TP.FG.J01;bie_tukfiy4;01.FOOD AND NON_ALCOHOLIC BEVERAGES;AYLIK
+011.GIDA;01-01-2024;01-01-2003;avg;TP.FG.J011;bie_tukfiy4;011.FOOD;AYLIK
+012.ALKOLSšZ ˜€ECEKLER;01-01-2024;01-01-2003;avg;TP.FG.J012;bie_tukfiy4;012.NON_ALCOHOLIC BEVERAGES;AYLIK
+02.ALKOLLš ˜€ECEKLER VE TšTšN;01-01-2024;01-01-2003;avg;TP.FG.J02;bie_tukfiy4;02.ALCOHOLIC BEVERAGES AND TOBACCO;AYLIK
+021.ALKOLLš ˜€ECEKLER;01-01-2024;01-01-2003;avg;TP.FG.J021;bie_tukfiy4;021.ALCOHOLIC BEVERAGES;AYLIK
+022.TšTšN;01-01-2024;01-01-2003;avg;TP.FG.J022;bie_tukfiy4;022.TOBACCO;AYLIK
+03.G˜Y˜M VE AYAKKABI;01-01-2024;01-01-2003;avg;TP.FG.J03;bie_tukfiy4;03.CLOTHING AND FOOTWEAR;AYLIK
+031.G˜Y˜M;01-01-2024;01-01-2003;avg;TP.FG.J031;bie_tukfiy4;031.CLOTHING;AYLIK
+032.AYAKKABI;01-01-2024;01-01-2003;avg;TP.FG.J032;bie_tukfiy4;032.FOOTWEAR;AYLIK
+04.KONUT, SU, ELEKTR˜K, GAZ VE D˜GER YAKITLAR;01-01-2024;01-01-2003;avg;TP.FG.J04;bie_tukfiy4;04.HOUSING, WATER, ELECTRICITY, GAS AND OTHER FUELS;AYLIK
+041.GER€EK K˜RA;01-01-2024;01-01-2003;avg;TP.FG.J041;bie_tukfiy4;041.ACTUAL RENTALS FOR HOUSING;AYLIK
+043.KONUTUN BAKIM VE ONARIMI;01-01-2024;01-01-2003;avg;TP.FG.J043;bie_tukfiy4;043.MAINTENANCE AND REPAIR OF THE DWELLING;AYLIK
+044.SU (SEBEKE SUYU) VE KONUTLA ˜LG˜L˜ €ES˜TL˜ H˜ZMETLER;01-01-2024;01-01-2003;avg;TP.FG.J044;bie_tukfiy4;044.WATER SUPPLY AND MISCELLANEOUS SERVICES RELATING TO THE DWELLING;AYLIK
+045.ELEKTRIK, GAZ VE D˜¦ER YAKITLAR;01-01-2024;01-01-2003;avg;TP.FG.J045;bie_tukfiy4;045.ELECTRICITY, GAS AND OTHER FUELS;AYLIK
+05.MOB˜LYA, EV ALETLER˜ VE EV BAKIM H˜ZMETLER˜;01-01-2024;01-01-2003;avg;TP.FG.J05;bie_tukfiy4;05.FURNISHINGS, HOUSEHOLD EQUIPMENT, ROUTINE MAINTENANCE OF THE HOUSE;AYLIK
+051.MOB˜LYA, MEFRUAT, HALI VE D˜¦ER YER D™EMELER˜;01-01-2024;01-01-2003;avg;TP.FG.J051;bie_tukfiy4;051.FURNITURE AND FURNISHINGS, CARPETS AND OTHER FLOOR COVERINGS;AYLIK
+052.EV ˜€˜ TEKST˜L;01-01-2024;01-01-2003;avg;TP.FG.J052;bie_tukfiy4;052.HOUSEHOLD TEXTILES;AYLIK
+053.EV ALETLER˜;01-01-2024;01-01-2003;avg;TP.FG.J053;bie_tukfiy4;053.HOUSEHOLD APPLIANCES;AYLIK
+054.ZUCCAC˜YE, YEMEK TAKIMI VE HANEHALKI ALETLER˜;01-01-2024;01-01-2003;avg;TP.FG.J054;bie_tukfiy4;054.GLASSWARE, TABLEWARE AND HOUSEHOLD UTENSILS;AYLIK
+055.EV VE BAH€E ARA€ GERECLER˜;01-01-2024;01-01-2003;avg;TP.FG.J055;bie_tukfiy4;055.TOOLS AND EQUIPMENT FOR HOUSE AND GARDEN;AYLIK
+056.EV BAKIM ˜€˜N MAL VE H˜ZMETLER;01-01-2024;01-01-2003;avg;TP.FG.J056;bie_tukfiy4;056.GOODS AND SERVICES FOR ROUTINE HOUSEHOLD MAINTENANCE;AYLIK
+06.SA¦LIK;01-01-2024;01-01-2003;avg;TP.FG.J06;bie_tukfiy4;06.HEALTH;AYLIK
+061.TIBB˜ šRšNLER, ALETLER VE MALZEMELER;01-01-2024;01-01-2003;avg;TP.FG.J061;bie_tukfiy4;061.MEDICAL PRODUCTS, APPLIANCES AND EQUIPMENT;AYLIK
+062.AYAKTA TEDAV˜ H˜ZMETLER˜;01-01-2024;01-01-2003;avg;TP.FG.J062;bie_tukfiy4;062.OUTPATIENT SERVICES;AYLIK
+063.YATAKLI TEDAV˜ H˜ZMETLER˜;01-01-2024;01-01-2003;avg;TP.FG.J063;bie_tukfiy4;063.HOSPITAL SERVICES;AYLIK
+07.ULATIRMA;01-01-2024;01-01-2003;avg;TP.FG.J07;bie_tukfiy4;07.TRANSPORT;AYLIK
+071.ARA€ SATIN ALIMI;01-01-2024;01-01-2003;avg;TP.FG.J071;bie_tukfiy4;071.PURCHASE OF VEHICLES;AYLIK
+072.K˜˜SEL ULATIRMA ARA€LARININ ˜LET˜M˜;01-01-2024;01-01-2003;avg;TP.FG.J072;bie_tukfiy4;072.OPERATION OF PERSONAL TRANSPORT EQUIPMENT;AYLIK
+073.ULATIRMA H˜ZMETLER˜;01-01-2024;01-01-2003;avg;TP.FG.J073;bie_tukfiy4;073.TRANSPORT SERVICES;AYLIK
+08.HABERLEME;01-01-2024;01-01-2003;avg;TP.FG.J08;bie_tukfiy4;08.COMMUNICATIONS;AYLIK
+081.POSTA H˜ZMETLER˜;01-01-2024;01-01-2003;avg;TP.FG.J081;bie_tukfiy4;081.POSTAL SERVICES;AYLIK
+082.TELEFON VE TELEFAKS EK˜PMANI;01-01-2024;01-01-2003;avg;TP.FG.J082;bie_tukfiy4;082.TELEPHONE AND TELEFAX EQUIPMENT;AYLIK
+083.TELEFON VE TELEFAKS H˜ZMETLER˜;01-01-2024;01-01-2003;avg;TP.FG.J083;bie_tukfiy4;083.TELEPHONE AND TELEFAX SERVICES;AYLIK
+09.E¦LENCE VE KšLTšR;01-01-2024;01-01-2003;avg;TP.FG.J09;bie_tukfiy4;09.RECREATION and CULTUR;AYLIK
+091.G™RSEL_˜˜TSEL S˜STEMLE (AUDIO_VISUAL), FOTOGRAFLA VE VER˜ ˜LEMLE ˜LE ˜LG˜L˜ EK˜PMAN;01-01-2024;01-01-2003;avg;TP.FG.J091;bie_tukfiy4;091.AUDIO_VISUAL, PHOTOGRAPHIC AND INFORMATION PROCESSING EQUIPMENT;AYLIK
+092.D˜¦ER TEMEL DAYANIKLI E¦LENCE VE KšLTšR ARACLARI;01-01-2024;01-01-2003;avg;TP.FG.J092;bie_tukfiy4;092.OTHER MAJOR DURABLES FOR RECREATION AND CULTURE;AYLIK
+093.D˜¦ER E¦LENCE ARA€LARI VE MALZEMELER˜, BAH€E VE EVC˜L HAYVANLARA ˜L˜K˜N šRšNLER, H˜ZMETLER;01-01-2024;01-01-2003;avg;TP.FG.J093;bie_tukfiy4;093.OTHER RECREATIONAL ITEMS AND EQUIPMENT, GARDENS AND PETS;AYLIK
+094.E¦LENCE VE KšLTšR H˜ZMETLER˜;01-01-2024;01-01-2003;avg;TP.FG.J094;bie_tukfiy4;094.RECREATIONAL AND CULTURAL SERVICES;AYLIK
+095.GAZETE, K˜TAP VE KIRTAS˜YE;01-01-2024;01-01-2003;avg;TP.FG.J095;bie_tukfiy4;095.NEWSPAPERS, BOOKS AND STATIONERY;AYLIK
+096.PAKET TURLAR;01-01-2024;01-01-2003;avg;TP.FG.J096;bie_tukfiy4;096.PACKAGE HOLIDAYS;AYLIK
+10.E¦˜T˜M;01-01-2024;01-01-2003;avg;TP.FG.J10;bie_tukfiy4;10.EDUCATION;AYLIK
+101.OKUL ™NCES˜ E¦˜T˜M VE ˜LK™¦RET˜M;01-01-2024;01-01-2003;avg;TP.FG.J101;bie_tukfiy4;101.PRE_PRIMARY AND PRIMARY EDUCATION;AYLIK
+102.ORTA ™¦RET˜M;01-01-2024;01-01-2003;avg;TP.FG.J102;bie_tukfiy4;102.SECONDARY EDUCATION;AYLIK
+103.ORTA ™¦RET˜M SONRASI VE šN˜VERS˜TE ™NCES˜ E¦˜T˜M;01-12-2015;01-01-2003;avg;TP.FG.J103;bie_tukfiy4;103.POST_SECONDARY NON_TERTIARY EDUCATION;AYLIK
+104.šN˜VERS˜TE E¦˜T˜M˜;01-01-2024;01-01-2003;avg;TP.FG.J104;bie_tukfiy4;104.TERTIARY EDUCATION;AYLIK
+105.DšZEY˜ BEL˜RLENEMEYEN E¦˜T˜M PROGRAMLARI;01-01-2024;01-01-2003;avg;TP.FG.J105;bie_tukfiy4;105.EDUCATION NOT DEFINABLE BY LEVEL;AYLIK
+11.LOKANTA VE OTELLER;01-01-2024;01-01-2003;avg;TP.FG.J11;bie_tukfiy4;11.HOTELS, CAFES AND RESTAURANTS;AYLIK
+111.YEMEK H˜ZMETLER˜;01-01-2024;01-01-2003;avg;TP.FG.J111;bie_tukfiy4;111.CATERING SERVICES;AYLIK
+112.KONAKLAMA H˜ZMETLER˜;01-01-2024;01-01-2003;avg;TP.FG.J112;bie_tukfiy4;112.ACCOMMODATION SERVICES;AYLIK
+12.€E˜TL˜ MAL VE H˜ZMETLER;01-01-2024;01-01-2003;avg;TP.FG.J12;bie_tukfiy4;12.MISCELLANEOUS GOODS AND SERVICES;AYLIK
+121.K˜˜SEL BAKIM;01-01-2024;01-01-2003;avg;TP.FG.J121;bie_tukfiy4;121.PERSONAL CARE;AYLIK
+123.BAKA YERDE SINIFLANDIRILAMAYAN K˜˜SEL BAKIM šRšNLER˜;01-01-2024;01-01-2003;avg;TP.FG.J123;bie_tukfiy4;123.PERSONAL EFFECTS N.E.C.;AYLIK
+124.SOSYAL H˜ZMETLER;01-01-2024;01-01-2003;avg;TP.FG.J124;bie_tukfiy4;124.SOCIAL PROTECTION;AYLIK
+125.S˜GORTA;01-01-2024;01-01-2003;avg;TP.FG.J125;bie_tukfiy4;125.INSURANCE;AYLIK
+126.BAKA YERDE SINIFLANDIRILMAYAN MAL˜ H˜ZMETLER;01-01-2024;01-01-2003;avg;TP.FG.J126;bie_tukfiy4;126.FINANCIAL SERVICES N.E.C.;AYLIK
+127.BAKA YERDE SINIFLANDIRILMAYAN D˜¦ER H˜ZMETLER;01-01-2024;01-01-2003;avg;TP.FG.J127;bie_tukfiy4;127.OTHER SERVICES N.E.C.;AYLIK
+1.Yurt ˜‡i šretici Fiyat Endeksi;01-01-2024;01-01-1982;avg;TP.TUFE1YI.T1;bie_tufe1yi;1. Domestic PPI general;AYLIK
+2. Madencilik ve taŸ ocak‡l§;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T2;bie_tufe1yi;2. Mining and quarrying;AYLIK
+2.1. K”mr ve linyit;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T3;bie_tufe1yi;2.1. Coal and lignite;AYLIK
+2.1.1.TaŸ k”mr;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T4;bie_tufe1yi;2.1.1. Hard coal;AYLIK
+2.1.2. Linyit;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T5;bie_tufe1yi;2.1.2. Lignite;AYLIK
+2.2. Ham petrol ve do§al gaz;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T6;bie_tufe1yi;2.2. Crude petroleum and natural gas;AYLIK
+2.2.1. Ham petrol;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T7;bie_tufe1yi;2.2.1. Crude petroleum;AYLIK
+2.2.2. Do§algaz svlaŸtrlmŸ veya gaz halde;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T8;bie_tufe1yi;2.2.2. Natural gas liquefied or in gaseous state;AYLIK
+2.3. Metal cevherleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T9;bie_tufe1yi;2.3. Metal ores;AYLIK
+2.3.1. Demir cevherleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T10;bie_tufe1yi;2.3.1. Iron ores;AYLIK
+2.3.2. Demir dŸ metal cevherleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T11;bie_tufe1yi;2.3.2. Non_ferrous metal ores;AYLIK
+2.4. Di§er madencilik ve taŸ ocak‡l§ rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T12;bie_tufe1yi;2.4. Other mining and quarrying products;AYLIK
+2.4.1.TaŸ kum ve kil;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T13;bie_tufe1yi;2.4.1. Stone sand and clay;AYLIK
+2.4.2. B.Y.S. madencilik ve taŸ ocak‡l§ rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T14;bie_tufe1yi;2.4.2. Mining and quarrying products N.E.C.;AYLIK
+3. ˜malat;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T15;bie_tufe1yi;3. Manufacturing;AYLIK
+3.1. Gda rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T16;bie_tufe1yi;3.1. Food products;AYLIK
+3.1.1. KorunmuŸ et ve et rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T17;bie_tufe1yi;3.1.1. Preserved meat and meat products;AYLIK
+3.1.2. Balklar kabuklular ve yumuŸak‡alar (iŸlenmiŸ ve korunmuŸ olanlar);01-01-2024;01-01-2014;avg;TP.TUFE1YI.T18;bie_tufe1yi;3.1.2. Processed and preserved fish crustaceans and molluscs;AYLIK
+3.1.3. Meyve ve sebzeler iŸlenmiŸ ve korunmuŸ;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T19;bie_tufe1yi;3.1.3. Processed and preserved fruit and vegetables;AYLIK
+3.1.4. Bitkisel ve hayvansal sv ve kat ya§lar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T20;bie_tufe1yi;3.1.4. Vegetable and animal oils and fats;AYLIK
+3.1.5. St rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T21;bie_tufe1yi;3.1.5. Dairy products;AYLIK
+3.1.6. ™§tlmŸ tahl rnleri niŸasta ve niŸastal rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T22;bie_tufe1yi;3.1.6. Grain mill products starches and starch products;AYLIK
+3.1.7. Frn rnleri ve unlu mamuller;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T23;bie_tufe1yi;3.1.7. Bakery and farinaceous products;AYLIK
+3.1.8. Di§er gda rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T24;bie_tufe1yi;3.1.8. Other food products;AYLIK
+3.1.9. Hazr hayvan yemleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T25;bie_tufe1yi;3.1.9. Prepared animal feeds;AYLIK
+3.2. ˜‡ecekler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T26;bie_tufe1yi;3.2. Beverages;AYLIK
+3.2.1. ˜‡ecekler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T27;bie_tufe1yi;3.2.1. Beverages;AYLIK
+3.3. Ttn rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T28;bie_tufe1yi;3.3. Tobacco products;AYLIK
+3.3.1. Ttn rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T29;bie_tufe1yi;3.3.1Tobacco products;AYLIK
+3.4. Tekstil rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T30;bie_tufe1yi;3.4. Textiles;AYLIK
+3.4.1. Tekstil iplik ve elyaflar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T31;bie_tufe1yi;3.4.1. Textile yarn and thread;AYLIK
+3.4.2. Dokumalar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T32;bie_tufe1yi;3.4.2. Woven textiles;AYLIK
+3.4.3. Tekstil terbiye hizmetleri;01-01-2024;01-01-2003;avg;TP.TUFE1YI.T33;bie_tufe1yi;3.4.3. Textile finishing services;AYLIK
+3.4.4. Di§er tekstil rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T34;bie_tufe1yi;3.4.4. Other textiles;AYLIK
+3.5. Giyim eŸyas;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T35;bie_tufe1yi;3.5. Wearing apparel;AYLIK
+3.5.1. Giyim eŸyas krkten yaplan giysiler hari‡;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T36;bie_tufe1yi;3.5.1. Wearing apparel except fur apparel;AYLIK
+3.5.2. Giyim eŸyas ”rg (triko) veya t§ iŸi (kroŸe);01-01-2024;01-01-1994;avg;TP.TUFE1YI.T37;bie_tufe1yi;3.5.2. Knitted and crocheted apparel;AYLIK
+3.6. Deri ve ilgili rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T38;bie_tufe1yi;3.6. Leather and related products;AYLIK
+3.6.1. TabaklanmŸ ve iŸlenmiŸ deri bavul el ‡antas sara‡lk ve koŸum takm iŸlenmiŸ ve boyanmŸ krk;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T39;bie_tufe1yi;3.6.1. Tanned and dressed leather luggage handbags saddlery and harness dressed and dyed fur;AYLIK
+3.6.2. Ayakkab;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T40;bie_tufe1yi;3.6.2. Footwear;AYLIK
+3.7. A§a‡ ve mantar rnleri (mobilya hari‡);01-01-2024;01-01-1994;avg;TP.TUFE1YI.T41;bie_tufe1yi;3.7. Wood and products of wood and cork except furniture;AYLIK
+3.7.1. Kereste bi‡ilmiŸ ve planlanmŸ;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T42;bie_tufe1yi;3.7.1. Wood sawn and planed;AYLIK
+3.7.2. AhŸap mantar hasr ve ”rg malzemesinden (saz saman vb.) rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T43;bie_tufe1yi;3.7.2. Products of wood cork straw and plaiting materials;AYLIK
+3.8. Ka§t ve ka§t rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T44;bie_tufe1yi;3.8. Paper and paper products;AYLIK
+3.8.1. Ka§t hamuru ka§t ve mukavva;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T45;bie_tufe1yi;3.8.1. Pulp paper and paperboard;AYLIK
+3.8.1. Ka§t ve mukavvadan rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T46;bie_tufe1yi;3.8.1. Articles of paper and paperboard;AYLIK
+3.9. Basm ve kayt hizmetleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T47;bie_tufe1yi;2.9. Printing and recording services;AYLIK
+3.9.1. Basm hizmetleri ve basmla ilgili hizmetler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T48;bie_tufe1yi;3.9.1. Printing services and services related to printing;AYLIK
+3.10. Kok ve rafine petrol rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T49;bie_tufe1yi;3.10. Coke and refined petroleum products;AYLIK
+3.10.1. Kok frn rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T50;bie_tufe1yi;3.10.1. Coke oven products;AYLIK
+3.10.2. Rafine edilmiŸ petrol rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T51;bie_tufe1yi;3.10.2. Refined petroleum products;AYLIK
+3.11. Kimyasallar ve kimyasal rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T52;bie_tufe1yi;3.11. Chemicals and chemical products;AYLIK
+3.11.1. Temel kimyasallar gbreler ve azot bileŸikleri ile birincil formda plastik ve sentetik kau‡uk;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T53;bie_tufe1yi;3.11.1. Basic chemicals fertilisers and nitrogen compounds plastics and synthetic rubber in primary forms;AYLIK
+3.11.2. HaŸere ila‡lar ve di§er zirai kimyasal rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T54;bie_tufe1yi;3.11.2. Pesticides and other agrochemical products;AYLIK
+3.11.3. Boya vernik ve benzeri kaplayc maddeler ile matbaa mrekkepleri ve macunlar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T55;bie_tufe1yi;3.11.3. Paints varnishes and similar coatings printing ink and mastics;AYLIK
+3.11.4. Sabun ve deterjanlar temizleme ve cilalama rnleri parfm ve bakm rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T56;bie_tufe1yi;3.11.4. Soap and detergents cleaning and polishing preparations perfumes and toilet preparations;AYLIK
+3.11.5. Di§er kimyasal rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T57;bie_tufe1yi;3.11.5. Other chemical products;AYLIK
+3.11.6. Suni ve sentetik elyaflar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T58;bie_tufe1yi;3.11.6. Man_made fibres;AYLIK
+3.12. Temel eczaclk rnleri ve mstahzarlar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T59;bie_tufe1yi;3.12. Basic pharmaceutical products and pharmaceutic preparations;AYLIK
+3.12.1. Eczaclk mstahzarlar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T60;bie_tufe1yi;3.12.1. Pharmaceutical preparations;AYLIK
+3.13. Kau‡uk ve plastik rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T61;bie_tufe1yi;3.13. Rubber and plastic products;AYLIK
+3.13.1. Kau‡uk rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T62;bie_tufe1yi;3.13.1. Rubber products;AYLIK
+3.13.2. Plastik rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T63;bie_tufe1yi;3.13.2. Plastic products;AYLIK
+3.14. Di§er metalik olmayan mineral rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T64;bie_tufe1yi;3.14. Other non_metallic mineral products;AYLIK
+3.14.1. Cam ve cam rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T65;bie_tufe1yi;3.14.1. Glass and glass products;AYLIK
+3.14.2. AteŸe dayankl rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T66;bie_tufe1yi;3.14.2. Refractory products;AYLIK
+3.14.3. Kilden inŸaat malzemesi;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T67;bie_tufe1yi;3.14.3. Clay building materials;AYLIK
+3.14.4. Di§er porselen ve seramik rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T68;bie_tufe1yi;3.14.4. Other porcelain and ceramic products;AYLIK
+3.14.5. €imento kire‡ ve al‡;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T69;bie_tufe1yi;3.14.5. Cement lime and plaster;AYLIK
+3.14.6. Betondan ‡imentodan ve al‡dan eŸyalar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T70;bie_tufe1yi;3.14.6. Articles of concrete cement and plaster;AYLIK
+3.14.7. TaŸ (kesilmiŸ Ÿekil verilmiŸ ve tamamlanmŸ);01-01-2024;01-01-1994;avg;TP.TUFE1YI.T71;bie_tufe1yi;3.14.7. Cut shaped and finished stone;AYLIK
+3.14.8. Metalik olmayan di§er mineral rnler;01-01-2024;01-01-2014;avg;TP.TUFE1YI.T72;bie_tufe1yi;3.14.8. Other non_metallic mineral products;AYLIK
+3.15. Ana metaller;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T73;bie_tufe1yi;3.15. Basic metals;AYLIK
+3.15.1. Ana demir_‡elik ve ferro alaŸmlar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T74;bie_tufe1yi;3.15.1. Basic iron and steel and ferro_alloys;AYLIK
+3.15.2. Tp boru i‡i boŸ profiller ve ilgili ba§lant par‡alar ‡elikten;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T75;bie_tufe1yi;3.15.2. Tubes pipes hollow profiles and related fittings of steel;AYLIK
+3.15.3. €eli§in ilk iŸlenmesinde elde edilen di§er rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T76;bie_tufe1yi;3.15.3. Other products of the first processing of steel;AYLIK
+3.15.4. De§erli ana metaller ve di§er demir dŸ metaller;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T77;bie_tufe1yi;3.15.4. Basic precious and other non_ferrous metals;AYLIK
+3.15.6. Metal d”km hizmetleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T78;bie_tufe1yi;3.15.6. Casting services of metals;AYLIK
+3.16. Fabrikasyon metal rnler makine ve ekipmanlar hari‡;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T79;bie_tufe1yi;3.16. Fabricated metal products except machinery and equipment;AYLIK
+3.16.1. Metal yap rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T80;bie_tufe1yi;3.16.1. Structural metal products;AYLIK
+3.16.2. Tank rezervuar ve konteynerler metalden;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T81;bie_tufe1yi;3.16.2. Tanks reservoirs and containers of metal;AYLIK
+3.16.3. Metalin d”vlmesi preslenmesi basklanmas ve haddelenmesi hizmetleri toz metalrjisi;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T82;bie_tufe1yi;3.16.3. Forging pressing stamping and roll_forming services of metal powder metallurgy;AYLIK
+3.16.4. Metallerin iŸlenmesi ve kaplanmas hizmetleri makinede iŸleme;01-01-2024;01-01-2017;avg;TP.TUFE1YI.T83;bie_tufe1yi;3.16.4. Treatment and coating services of metals machining;AYLIK
+3.16.5. €atal_b‡ak takm el aletleri ve genel hrdavat malzemesi;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T84;bie_tufe1yi;3.16.5. Cutlery tools and general hardware;AYLIK
+3.16.6. Di§er fabrikasyon metal rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T85;bie_tufe1yi;3.16.6. Other fabricated metal products;AYLIK
+3.17. Bilgisayarlar ile elektronik ve optik rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T86;bie_tufe1yi;3.17. Computer electronic and optical products;AYLIK
+3.17.1. Elektronik bileŸenler ve devre kartlar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T87;bie_tufe1yi;3.17.1. Electronic components and boards;AYLIK
+3.17.2. Bilgisayar ve bilgisayar ‡evre birimleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T88;bie_tufe1yi;3.17.2. Computers and peripheral equipment;AYLIK
+3.17.3. ˜letiŸim ekipmanlar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T89;bie_tufe1yi;3.17.3. Communication equipment;AYLIK
+3.17.4. Tketici elektroni§i rnleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T90;bie_tufe1yi;3.17.4. Consumer electronics;AYLIK
+3.17.5. ™l‡me test ve seyrsefer ama‡l alet ve cihazlar kol ve duvar saatleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T91;bie_tufe1yi;3.17.5. Measuring testing and navigating equipment watches and clocks;AYLIK
+3.17.6. Manyetik ve optik kaset bant. CD vb. ortamlar;01-12-2018;01-01-2003;avg;TP.TUFE1YI.T92;bie_tufe1yi;3.17.6. Magnetic and optical media;AYLIK
+3.18. Elektrikli te‡hizat;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T93;bie_tufe1yi;3.18. Electrical equipment;AYLIK
+3.18.1. Elektrik motoru jenerat”r transformat”r ile elektrik da§tm ve kontrol cihazlar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T94;bie_tufe1yi;3.18.1. Electric motors generators transformers and electricity distribution and control apparatus;AYLIK
+3.18.2. Pil ve akmlat”rler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T95;bie_tufe1yi;3.18.2. Batteries and accumulators;AYLIK
+3.18.3. Kablolamada kullanlan tel kablo ve gere‡ler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T96;bie_tufe1yi;3.18.3. Wiring and wiring devices;AYLIK
+3.18.4. Elektrikli aydnlatma ekipmanlar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T97;bie_tufe1yi;3.18.4. Electric lighting equipment;AYLIK
+3.18.5. Ev aletleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T98;bie_tufe1yi;3.18.5. Domestic appliances;AYLIK
+3.19. Makine ve ekipmanlar B.Y.S.;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T99;bie_tufe1yi;3.19. Machinery and equipment N.E.C.;AYLIK
+3.19.1. Genel ama‡l makineler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T100;bie_tufe1yi;3.19.1. General_purpose machinery;AYLIK
+3.19.2. Di§er genel ama‡l makineler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T101;bie_tufe1yi;3.19.2. Other general_purpose machinery;AYLIK
+3.19.3. Tarm ve ormanclk makineleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T102;bie_tufe1yi;3.19.3. Agricultural and forestry machinery;AYLIK
+3.19.4. Metal iŸleme makineleri ve takm tezgahlar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T103;bie_tufe1yi;3.19.4. Metal forming machinery and machine tools;AYLIK
+3.19.5. Di§er ”zel ama‡l makineler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T104;bie_tufe1yi;3.19.5. Other special_purpose machinery;AYLIK
+3.20. Motorlu kara taŸtlar r”mork ve yar r”mork;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T105;bie_tufe1yi;3.20. Motor vehicles trailers and semi_trailers;AYLIK
+3.20.1. Motorlu kara taŸtlar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T106;bie_tufe1yi;3.20.1. Motor vehicles;AYLIK
+3.20.2. Motorlu kara taŸtlarnn karoserleri (kaporta) treyler (r”mork) ve yar treyler (yar r”mork);01-01-2024;01-01-2014;avg;TP.TUFE1YI.T107;bie_tufe1yi;3.20.2. Bodies (coachwork) for motor vehicles trailers and semi_trailers;AYLIK
+3.20.3. Motorlu kara taŸtlarnn par‡a ve aksesuarlar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T108;bie_tufe1yi;3.20.3. Parts and accessories for motor vehicles;AYLIK
+3.21. Di§er ulaŸm ara‡lar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T109;bie_tufe1yi;3.21. Other transport equipment;AYLIK
+3.21.1. Demir yolu lokomotifleri ve vagonlar;01-01-2024;01-01-2017;avg;TP.TUFE1YI.T110;bie_tufe1yi;3.21.1. Railway locomotives and rolling stock;AYLIK
+3.21.2. B.Y.S. ulaŸm ara‡larn;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T111;bie_tufe1yi;3.21.2. Transport equipment N.E.C.;AYLIK
+3.22. Mobilya;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T112;bie_tufe1yi;3.22. Furniture;AYLIK
+3.22.1. Mobilya;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T113;bie_tufe1yi;3.22.1. Furniture;AYLIK
+3.23. Di§er mamul eŸyalar;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T114;bie_tufe1yi;3.23. Other manufactured goods;AYLIK
+3.23.1. Mcevherat bijuteri ve ilgili eŸyalar;01-01-2024;01-01-2012;avg;TP.TUFE1YI.T115;bie_tufe1yi;3.23.1. Jewellery bijouterie and related articles;AYLIK
+3.23.2. Tbbi ve diŸ‡ili§e ait ara‡ ve gere‡ler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T116;bie_tufe1yi;3.23.2. Medical and dental instruments and supplies;AYLIK
+3.23.3. B.Y.S. mamul rnler;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T117;bie_tufe1yi;3.23.3. Manufactured goods N.E.C.;AYLIK
+4. Elektrik gaz buhar ve iklimlendirme retimi ve da§tm;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T118;bie_tufe1yi;4. Electricity gas steam and air conditioning;AYLIK
+4.1. Elektrik gaz buhar ve iklimlendirme;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T119;bie_tufe1yi;4.1. Electricity gas;AYLIK
+4.1.1. Elektrik enerjisinin retimi iletimi ve da§tm;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T120;bie_tufe1yi;4.1.1. Electricity transmission and distribution services;AYLIK
+4.1.2. Gaz imalat ana Ÿebeke zerinden gaz yaktlarn da§tm;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T121;bie_tufe1yi;4.1.2. Gas distribution services of gaseous fuels through mains;AYLIK
+4.1.3. Su temini kanalizasyon atk y”netimi ve iyileŸtirme faaliyetleri;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T122;bie_tufe1yi;4.1.3. Water supply sewerage waste management and remediation services;AYLIK
+5. Su temini kanalizasyon atk y”netimi ve iyileŸtirme faal.;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T123;bie_tufe1yi;5. Water water treatment and supply services;AYLIK
+5.1. Su ve suyun artlmas ve da§tlmas;01-01-2024;01-01-1994;avg;TP.TUFE1YI.T124;bie_tufe1yi;5.1. Water water treatment and supply services;AYLIK
+Yeni Konutlar Fiyat Endeksi (YKFE) (ArŸiv);01-01-2019;01-01-2010;last;TP.01TYKFE;bie_tykfe;New Housing Price Index (NHPI) (Archive);AYLIK
+˜stanbul Yeni Konutlar Fiyat Endeksi (ArŸiv);01-01-2019;01-01-2010;last;TP.02ISTANBUL.Y;bie_tykfe;New Housing Price Index for Istanbul (Archive);AYLIK
+Ankara Yeni Konutlar Fiyat Endeksi (ArŸiv);01-01-2019;01-01-2010;last;TP.03ANKARA.Y;bie_tykfe;New Housing Price Index for Ankara (Archive);AYLIK
+˜zmir Yeni Konutlar Fiyat Endeksi (ArŸiv);01-01-2019;01-01-2010;last;TP.04IZMIR.Y;bie_tykfe;New Housing Price Index for Izmir (Archive);AYLIK
+GENEL INDEKS (ArŸiv);01-12-2004;01-01-1982;last;TP.FG.F01;bie_tukfiy1;All items (Archive);AYLIK
+1- GIDALAR GENEL INDEKSI (ArŸiv);01-12-2004;01-01-1982;last;TP.FG.F02;bie_tukfiy1;1- Food (Archive);AYLIK
+ANKARA TUKETICI FIYAT ENDEKSI (ArŸiv);01-12-1990;01-01-1982;last;TP.FG.F19;bie_tukfiy1;Ankara Consumer Price Index (Archive);AYLIK
+ISTANBUL TUKETICI FIYAT ENDEKSI (ArŸiv);01-12-1990;01-01-1982;last;TP.FG.F20;bie_tukfiy1;Istanbul Consumer Price Index (Archive);AYLIK
+1.GENEL (ArŸiv);01-12-2013;01-01-2003;last;TP.FG.TF01;bie_tufe1;1.GENERAL (Archive);AYLIK
+2.TARIM (ArŸiv);01-12-2013;01-01-2003;last;TP.FG.TF02;bie_tufe1;2.AGRICULTURE (Archive);AYLIK
+3.SANAYI (ArŸiv);01-12-2013;01-01-2003;last;TP.FG.TF07;bie_tufe1;3.INDUSTRY (Archive);AYLIK
+Konut Fiyat Endeksi (KFE) (ArŸiv);01-01-2019;01-01-2010;last;TP.01TKFE;bie_tkfe;House Price Index (HPI) (Archive);AYLIK
+TR 10 (˜stanbul) (ArŸiv);01-01-2019;01-01-2010;last;TP.02TR10;bie_tkfe;TR 10 (Istanbul) (Archive);AYLIK
+TR 51 (Ankara) (ArŸiv);01-01-2019;01-01-2010;last;TP.03TR51;bie_tkfe;TR 51 (Ankara) (Archive);AYLIK
+TR 31 (˜zmir) (ArŸiv);01-01-2019;01-01-2010;last;TP.04TR31;bie_tkfe;TR 31 (Izmir) (Archive);AYLIK
+TR 21 (Edirne, Krklareli, Tekirda§) (ArŸiv);01-01-2019;01-01-2010;last;TP.05TR21;bie_tkfe;TR 21 (Edirne, Kirklareli, Tekirdag) (Archive);AYLIK
+TR 22 (Balkesir, €anakkale) (ArŸiv);01-01-2019;01-01-2010;last;TP.06TR22;bie_tkfe;TR 22 (Balikesir, Canakkale) (Archive);AYLIK
+TR 32 (Aydn, Denizli, Mu§la) (ArŸiv);01-01-2019;01-01-2010;last;TP.07TR32;bie_tkfe;TR 32 (Aydin, Denizli, Mugla) (Archive);AYLIK
+TR 33 (Afyonkarahisar, Ktahya, Manisa, UŸak) (ArŸiv);01-01-2019;01-01-2010;last;TP.08TR33;bie_tkfe;TR 33 (Afyonkarahisar, Kutahya, Manisa, Usak) (Archive);AYLIK
+TR 41 (Bursa, EskiŸehir, Bilecik) (ArŸiv);01-01-2019;01-01-2010;last;TP.09TR41;bie_tkfe;TR 41 (Bursa, Eskisehir, Bilecik) (Archive);AYLIK
+TR 42 (Bolu, Kocaeli, Sakarya, Yalova, Dzce) (ArŸiv);01-01-2019;01-01-2010;last;TP.10TR42;bie_tkfe;TR 42 (Bolu, Kocaeli, Sakarya, Yalova, Duzce) (Archive);AYLIK
+TR 52 (Konya, Karaman) (ArŸiv);01-01-2019;01-01-2010;last;TP.11TR52;bie_tkfe;TR 52 (Konya, Karaman) (Archive);AYLIK
+TR 61 (Antalya, Burdur, Isparta) (ArŸiv);01-01-2019;01-01-2010;last;TP.12TR61;bie_tkfe;TR 61 (Antalya, Burdur, Isparta) (Archive);AYLIK
+TR 62 (Adana, Mersin) (ArŸiv);01-01-2019;01-01-2010;last;TP.13TR62;bie_tkfe;TR 62 (Adana, Mersin) (Archive);AYLIK
+TR 63 (Hatay, KahramanmaraŸ, Osmaniye) (ArŸiv);01-01-2019;01-01-2010;last;TP.14TR63;bie_tkfe;TR 63 (Hatay, Kahramanmaras, Osmaniye) (Archive);AYLIK
+TR 71 (NevŸehir, Ni§de, Aksaray, Krkkale, KrŸehir) (ArŸiv);01-01-2019;01-01-2010;last;TP.15TR71;bie_tkfe;TR 71 (Nevsehir, Nigde, Aksaray, Kirikkale, Kirsehir) (Archive);AYLIK
+TR 72 (Kayseri, Sivas, Yozgat) (ArŸiv);01-01-2019;01-01-2010;last;TP.16TR72;bie_tkfe;TR 72 (Kayseri, Sivas, Yozgat) (Archive);AYLIK
+TR 81 (Zonguldak, Bartn, Karabk) (ArŸiv);01-01-2019;01-01-2010;last;TP.17TR81;bie_tkfe;TR 81 (Zonguldak, Bartin, Karabuk) (Archive);AYLIK
+TR 82 (€ankr, Kastamonu, Sinop) (ArŸiv);01-01-2019;01-01-2010;last;TP.18TR82;bie_tkfe;TR 82 (Cankiri, Kastamonu, Sinop) (Archive);AYLIK
+TR 83 (Samsun, €orum, Amasya, Tokat) (ArŸiv);01-01-2019;01-01-2010;last;TP.19TR83;bie_tkfe;TR 83 (Samsun, Corum, Amasya, Tokat) (Archive);AYLIK
+TR 90 (Artvin, Giresun, GmŸhane, Ordu, Rize, Trabzon) (ArŸiv);01-01-2019;01-01-2010;last;TP.20TR90;bie_tkfe;TR 90 (Artvin, Giresun, Gumushane, Ordu, Rize, Trabzon) (Archive);AYLIK
+TR A1 (Erzurum, Erzincan, Bayburt) (ArŸiv);01-01-2019;01-01-2010;last;TP.21TRA1;bie_tkfe;TR A1 (Erzurum, Erzincan, Bayburt) (Archive);AYLIK
+TR A2 (A§r, Ardahan, Kars, I§dr) (ArŸiv);01-01-2019;01-01-2010;last;TP.22TRA2;bie_tkfe;TR A2 (Agri, Ardahan, Kars, Igdir) (Archive);AYLIK
+TR B1 (Bingol, Elaz§, Malatya, Tunceli) (ArŸiv);01-01-2019;01-01-2010;last;TP.23TRB1;bie_tkfe;TR B1 (Bingol, Elazig, Malatya, Tunceli) (Archive);AYLIK
+TR B2 (Van, Bitlis, Hakkari, MuŸ) (ArŸiv);01-01-2019;01-01-2010;last;TP.24TRB2;bie_tkfe;TR B2 (Van, Bitlis, Hakkari, Mus) (Archive);AYLIK
+TR C1 (Kilis, Adyaman, Gaziantep) (ArŸiv);01-01-2019;01-01-2010;last;TP.25TRC1;bie_tkfe;TR C1 (Kilis, Adiyaman, Gaziantep) (Archive);AYLIK
+TR C2 (Diyarbakir, anlurfa) (ArŸiv);01-01-2019;01-01-2010;last;TP.26TRC2;bie_tkfe;TR C2 (Diyarbakir, Sanliurfa) (Archive);AYLIK
+TR C3 (Batman, Mardin, Siirt, rnak) (ArŸiv);01-01-2019;01-01-2010;last;TP.27TRC3;bie_tkfe;TR C3 (Batman, Mardin, Siirt, Sirnak) (Archive);AYLIK
+Yeni Konutlar Fiyat Endeksi (YKFE) (ArŸiv);01-01-2019;01-01-2010;last;TP.01TYKFE;bie_tykfe;New Housing Price Index (NHPI) (Archive);AYLIK
+˜stanbul Yeni Konutlar Fiyat Endeksi (ArŸiv);01-01-2019;01-01-2010;last;TP.02ISTANBUL.Y;bie_tykfe;New Housing Price Index for Istanbul (Archive);AYLIK
+Ankara Yeni Konutlar Fiyat Endeksi (ArŸiv);01-01-2019;01-01-2010;last;TP.03ANKARA.Y;bie_tykfe;New Housing Price Index for Ankara (Archive);AYLIK
+˜zmir Yeni Konutlar Fiyat Endeksi (ArŸiv);01-01-2019;01-01-2010;last;TP.04IZMIR.Y;bie_tykfe;New Housing Price Index for Izmir (Archive);AYLIK
+1:TšRK˜YE BRšT DI BOR€ STOKU;01-07-2023;01-10-1989;last;TP.DB.B01;bie_dbdborc;1:GROSS EXTERNAL DEBT OF TURKEY;š€ AYLIK
+2:KISA VADEL˜ BOR€LAR (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B02;bie_dbdborc;2:SHORT TERM (By Borrower);š€ AYLIK
+2A:KAMU (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B03;bie_dbdborc;2A:PUBLIC SECTOR (By Borrower);š€ AYLIK
+2A1:GENEL Y™NET˜M (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B04;bie_dbdborc;2A1:GENERAL GOVERNMENT (By Borrower);š€ AYLIK
+2A1a:Merkezi Y”netim;01-07-2023;01-10-1989;last;TP.DB.B05;bie_dbdborc;2A1a:Central Government;š€ AYLIK
+2A1b:Mahalli ˜dareler;01-07-2023;01-10-1989;last;TP.DB.B06;bie_dbdborc;2A1b:Local Administrations;š€ AYLIK
+2A1c:Fonlar;01-07-2023;01-10-1989;last;TP.DB.B07;bie_dbdborc;2A1c:Funds;š€ AYLIK
+2A2:F˜NANSAL KURULULAR (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B08;bie_dbdborc;2A2:FINANCIAL INSTITUTIONS (By Borrower);š€ AYLIK
+2A2a:Bankalar;01-07-2023;01-10-1989;last;TP.DB.B09;bie_dbdborc;2A2a:Banks;š€ AYLIK
+2A2b:Bankaclk DŸ;01-07-2023;01-10-1989;last;TP.DB.B10;bie_dbdborc;2A2b:Non_Banking Institutions;š€ AYLIK
+2A3:F˜NANSAL OLMAYAN KURULULAR (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B11;bie_dbdborc;2A3:NON FINANCIAL INSTITUTIONS (By Borrower);š€ AYLIK
+2A3a:K˜T'ler;01-07-2023;01-10-1989;last;TP.DB.B12;bie_dbdborc;2A3a:SOE.S;š€ AYLIK
+2A3b:Di§er (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B13;bie_dbdborc;2A3b:Other;š€ AYLIK
+2B:TCMB (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B14;bie_dbdborc;2B:CBRT (By Borrower);š€ AYLIK
+2C:™zel (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B15;bie_dbdborc;2C:PRIVATE SECTOR (By Borrower);š€ AYLIK
+2C1:F˜NANSAL KURULULAR (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B16;bie_dbdborc;2C1:FINANCIAL INSTITUTIONS (By Borrower);š€ AYLIK
+2C1a:Bankalar (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B17;bie_dbdborc;2C1a:Banks;š€ AYLIK
+2C1b:Bankaclk DŸ (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B18;bie_dbdborc;2C1b:Non_Banking Institutions;š€ AYLIK
+2C2:F˜NANSAL OLMAYAN KURULULAR(Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B19;bie_dbdborc;2C2:NON_FINANCIAL INSTITUTIONS (By Borrower);š€ AYLIK
+3:UZUN VADEL˜ BOR€LAR (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B20;bie_dbdborc;3:LONG TERM (By Borrower);š€ AYLIK
+3A:KAMU (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B21;bie_dbdborc;3A:PUBLIC SECTOR (By Borrower);š€ AYLIK
+3A1:GENEL Y™NET˜M (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B22;bie_dbdborc;3A1:GENERAL GOVERNMENT (By Borrower);š€ AYLIK
+3A1a:Merkezi Y”netim (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B23;bie_dbdborc;3A1a:Central Government;š€ AYLIK
+3A1b:Mahalli ˜dareler (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B24;bie_dbdborc;3A1b:Local Administrations;š€ AYLIK
+3A1c:Fonlar (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B25;bie_dbdborc;3A1c:Funds;š€ AYLIK
+3A2:F˜NANSAL KURULULAR (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B26;bie_dbdborc;3A2:FINANCIAL INSTITUTIONS (By Borrower);š€ AYLIK
+3A2a:Bankalar;01-07-2023;01-10-1989;last;TP.DB.B27;bie_dbdborc;3A2a:Banks;š€ AYLIK
+3A2b:Bankaclk DŸ;01-07-2023;01-10-1989;last;TP.DB.B28;bie_dbdborc;3A2b:Non_Banking Institutions;š€ AYLIK
+3A3:F˜NANSAL OLMAYAN KURULULAR (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B29;bie_dbdborc;3A3:NON_FINANCIAL INSTITUTIONS (By Borrower);š€ AYLIK
+3A3a:K˜T'ler (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B30;bie_dbdborc;3A3a:SOE.s;š€ AYLIK
+3A3b:Di§er (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B31;bie_dbdborc;3A3b:Other;š€ AYLIK
+3B:TCMB (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B32;bie_dbdborc;3B:CBRT;š€ AYLIK
+3C:™ZEL SEKT™R (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B33;bie_dbdborc;3C:PRIVATE SECTOR (By Borrower);š€ AYLIK
+3C1:F˜NANSAL KURULULAR (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B34;bie_dbdborc;3C1:FINANCIAL INSTITUTIONS (By Borrower);š€ AYLIK
+3C1a:Bankalar (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B35;bie_dbdborc;3C1a:Banks;š€ AYLIK
+3C1b:Bankaclk DŸ (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B36;bie_dbdborc;3C1b:Non_Banking Institutions;š€ AYLIK
+3C2:F˜NANSAL OLMAYAN KURULULAR (Bor‡luya G”re);01-07-2023;01-10-1989;last;TP.DB.B37;bie_dbdborc;3C2:NON_FINANCIAL INSTITUTIONS;š€ AYLIK
+4A:KISA VADEL˜ BOR€LAR (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B38;bie_dbdborc;4A:SHORT TERM (By Lender);š€ AYLIK
+4A1:™ZEL ALACAKLILAR (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B39;bie_dbdborc;4A1:PRIVATE CREDITORS (By Lender);š€ AYLIK
+4A1a:Parasal KuruluŸlar (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B40;bie_dbdborc;4A1a:Monetary Institutions;š€ AYLIK
+4A1b:Parasal Olmayan KuruluŸlar(Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B41;bie_dbdborc;4A1b:Non_Monetary Institutions;š€ AYLIK
+4A2:RESM˜ ALACAKLILAR (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B42;bie_dbdborc;4A2:OFFICIAL CREDITORS (By Lender);š€ AYLIK
+4A3:TAHV˜L;01-07-2023;01-10-1989;last;TP.DB.B43;bie_dbdborc;4A3:BONDS;š€ AYLIK
+4B:UZUN VADEL˜ BOR€LAR (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B44;bie_dbdborc;4B:LONG TERM (By Lender);š€ AYLIK
+4B1:™ZEL ALACAKLILAR (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B45;bie_dbdborc;4B1:PRIVATE CREDITORS (By Lender);š€ AYLIK
+4B1a:PARASAL KURULULAR (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B46;bie_dbdborc;4B1a:Monetary Institutions;š€ AYLIK
+4B1a1:Bankaclk DŸ Finansman KuruluŸlar (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B47;bie_dbdborc;4B1a1:Non_Bank Financial Institutions;š€ AYLIK
+4B1a2:™zel Yatrm ve Kalknma Bankalar (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B48;bie_dbdborc;4B1a2:Private Investment and Development Banks;š€ AYLIK
+4B1a3:Yabanci Ticari Bankalar (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B49;bie_dbdborc;4B1a3:Foreign Commercial Banks;š€ AYLIK
+4B1a4:Yerli Ticari Bankalarn Yurt DŸ ubeleri ve Di§er (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B50;bie_dbdborc;4B1a4:Foreign Branches of Domestic Banks and Others;š€ AYLIK
+4B1b:PARASAL OLMAYAN KURULULAR (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B51;bie_dbdborc;4B1b:Non_Monetary Institutions;š€ AYLIK
+4B2:RESM˜ ALACAKLILAR (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B52;bie_dbdborc;4B2:OFFICIAL CREDITORS (By Lender);š€ AYLIK
+4B2a:HšKšMET KURULULARI (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B53;bie_dbdborc;4B2a:Governmental Organizations;š€ AYLIK
+4B2a1:Kamu Finansman KuruluŸlar;01-07-2023;01-10-1989;last;TP.DB.B54;bie_dbdborc;4B2a1:Public Finance Institutions;š€ AYLIK
+4B2a2:Merkez Bankalar;01-07-2023;01-10-1989;last;TP.DB.B55;bie_dbdborc;4B2a2:Central Banks;š€ AYLIK
+4B2a3:Merkezi Hkmetler;01-07-2023;01-10-1989;last;TP.DB.B56;bie_dbdborc;4B2a3:Central Governments;š€ AYLIK
+4B2a4:Resmi Kalknma Bankalar;01-07-2023;01-10-1989;last;TP.DB.B57;bie_dbdborc;4B2a4:Official Development Banks;š€ AYLIK
+4B2b:ULUSLARARASI KURULULAR (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B58;bie_dbdborc;4B2b:Multilateral Organizations (By Lender);š€ AYLIK
+4B2c:IMF ULUSLARARASI PARA FONU (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B59;bie_dbdborc;4B2b1:IMF_International Monetary Fund;š€ AYLIK
+4B2c1:IMF SDR Tahsisat;01-07-2023;01-10-1989;last;TP.DB.B60;bie_dbdborc;4B2b1a:IMF_SDR Allocation;š€ AYLIK
+4B2d:IBRD ULUSLARARASI ˜MAR VE KALKINMA BANKASI (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B61;bie_dbdborc;4B2b2:IBRD;š€ AYLIK
+4B2e:D˜¦ER ULUSLARARASI KURULULAR (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B62;bie_dbdborc;4B2b3:Other Multilateral Institutions;š€ AYLIK
+5:TAHV˜L (Alacaklya G”re);01-07-2023;01-10-1989;last;TP.DB.B63;bie_dbdborc;5:Bonds (By Lender);š€ AYLIK
+(KBB)Kullanilmis Borc Bakiyesi (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D01;bie_dbdisborc;1.Total Outstanding Disbursed (Archive);š€ AYLIK
+(KBB)Orta ve Uzun Vadeli (Vadeye Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D02;bie_dbdisborc;2.Medium and Long-Term (By Maturity)(Archive);š€ AYLIK
+(KBB)Kisa Vadeli (Vadeye Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D03;bie_dbdisborc;3.Short-Term (By Maturity)(Archive);š€ AYLIK
+(OUV)Orta ve Uzun Vadeli (Borc Alana Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D04;bie_dbdisborc;4.Medium and Long-Term (By Borrower)(Archive);š€ AYLIK
+(OVUV)Kamu Sektoru(Kitler dahil)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D05;bie_dbdisborc;5.Public Sector (inc. SEE's)(Archive);š€ AYLIK
+(OVUV)Merkez Bankasi (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D06;bie_dbdisborc;6.Central Bank (Archive);š€ AYLIK
+(OVUV)Ozel Sektor (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D07;bie_dbdisborc;7.Private Sector (Archive);š€ AYLIK
+(KV)Kisa Vadeli (Borc Alana Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D08;bie_dbdisborc;8.Short-Term (By Borrower)(Archive);š€ AYLIK
+(KV)Merkez Bankasi (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D09;bie_dbdisborc;9.Central Bank (Archive);š€ AYLIK
+(KV)Ticari Bankalar (Borc Alana Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D10;bie_dbdisborc;10.Commercial Banks (By Borrower)(Archive);š€ AYLIK
+(KV)Diger Sektorler (Borc Alana Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D11;bie_dbdisborc;11.Other Sectors (By Borrower)(Archive);š€ AYLIK
+(OUVK)Orta ve Uzun Vadeli (Borc Verene Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D12;bie_dbdisborc;12.Medium and Long-Term (By Lender)(Archive);š€ AYLIK
+(OUVK)Uluslararasi Kuruluslar (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D13;bie_dbdisborc;13.International Organizations (Archive);š€ AYLIK
+(OUVK)IMF (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D14;bie_dbdisborc;14.IMF (Archive);š€ AYLIK
+(OUVK)IBRD, IDA, IFC (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D15;bie_dbdisborc;15.IBRD, IDA, IFC (Archive);š€ AYLIK
+(OUVK)Avrupa Yatirim Bankasi (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D16;bie_dbdisborc;16.European Investment Bank (Archive);š€ AYLIK
+(OUVK)Avrupa Konseyi Iskan Fonu (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D17;bie_dbdisborc;17.European Resettlement Fund (Archive);š€ AYLIK
+(OUVK)Islam Kalkinma Bankasi (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D18;bie_dbdisborc;18.Islamic Development Bank (Archive);š€ AYLIK
+(OUVK)OPEC Fonu (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D19;bie_dbdisborc;19.OPEC Fund (Archive);š€ AYLIK
+(OUVK)Uluslararasi Tarimsal Kalkinma Fonu (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D20;bie_dbdisborc;20.Int. Fund for Ag. Development (Archive);š€ AYLIK
+(IA)Ikili Anlasmalar (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D21;bie_dbdisborc;21.Bilateral Lenders (Archive);š€ AYLIK
+(IA)OECD Ulkeleri (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D22;bie_dbdisborc;22.OECD Countries (Archive);š€ AYLIK
+(IA)OPEC Ulkeleri (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D23;bie_dbdisborc;23.OPEC Countries (Archive);š€ AYLIK
+(IA)Diger ulkeler (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D24;bie_dbdisborc;24.Other Countries (Archive);š€ AYLIK
+Ticari Bankalar (Borc Verene Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D25;bie_dbdisborc;25.Commercial Banks (By Lender)(Archive);š€ AYLIK
+Tahvil ihraclari (Borc Verene Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D26;bie_dbdisborc;26.Bond Issues (By Lender)(Archive);š€ AYLIK
+Ozel Alacaklilar (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D27;bie_dbdisborc;27.Private Lenders (Archive);š€ AYLIK
+(KV)Kisa Vadeli (Borc Verene Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D28;bie_dbdisborc;28.Short-Term (By Lender)(Archive);š€ AYLIK
+(KV)Ticari Banka Kredileri (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D29;bie_dbdisborc;29.Commercial Bank Credits (Archive);š€ AYLIK
+(KV)Ozel Kesim Kredileri (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D30;bie_dbdisborc;30.Private Lender Credits (Archive);š€ AYLIK
+(OUV)Orta ve Uzun Vadeli (Kredi Turune Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D31;bie_dbdisborc;31.Medium and Long-Term (By Type of Credit)(Archive);š€ AYLIK
+(OUV)Proje ve Program Kredileri (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D32;bie_dbdisborc;32.Project and Program Credits (Archive);š€ AYLIK
+(OUV)Uluslararasi Para Piyasasi Krd. (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D33;bie_dbdisborc;33.Eurocurrency Loans (Archive);š€ AYLIK
+(OUV)Tahvil ihraclari (Kredi Turune Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D34;bie_dbdisborc;34.Bond Issues (By Type of Credit)(Archive);š€ AYLIK
+(OUVEB)Ertelenmis Borclar (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D35;bie_dbdisborc;35.Rescheduled Debt (Archive);š€ AYLIK
+(OUVEB)DCM'ler (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D36;bie_dbdisborc;36.CTLD's (Archive);š€ AYLIK
+(OUVEB)Banker Kredileri (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D37;bie_dbdisborc;37.Bankers' Credits (Archive);š€ AYLIK
+(OUVEB)Garantisiz Ticari Borclar (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D38;bie_dbdisborc;38.NGTA's (Archive);š€ AYLIK
+(OUVOK)Ozel Krediler (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D39;bie_dbdisborc;39.Private Credits (Archive);š€ AYLIK
+(OUVOK)Dresdner Hesabi (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D40;bie_dbdisborc;40.Dresdner Bank Scheme (Archive);š€ AYLIK
+(KV)Kisa vadeli (Kredi Turune Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D41;bie_dbdisborc;41.Short-Term (By Type of Credit)(Archive);š€ AYLIK
+(KVK)Krediler (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D42;bie_dbdisborc;42.Credits (Archive);š€ AYLIK
+(KVK)Banker Kredileri (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D43;bie_dbdisborc;43.Bankers' Credits (Archive);š€ AYLIK
+(KVK)Muhabir aciklari (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D44;bie_dbdisborc;44.Overdarfts (Archive);š€ AYLIK
+(KVK)Kabul Kredileri (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D45;bie_dbdisborc;45.Acceptance Credits (Archive);š€ AYLIK
+(KVK)Prefinansman Kredileri (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D46;bie_dbdisborc;46.Pre-export Credits (Archive);š€ AYLIK
+(KVK)Bankalarin Sag. Doviz Kredileri (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D47;bie_dbdisborc;47.Commercial Banks Foreign Exch. Credits (Archive);š€ AYLIK
+(KVK)Kuruluslarin Sag. Doviz Kredileri (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D48;bie_dbdisborc;48.Foreign Exchange Credits (Archive);š€ AYLIK
+(KVK)Diger (Kredi Turune Gore)(ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D49;bie_dbdisborc;49.Others (By Type of Credit)(Archive);š€ AYLIK
+(M)Mevduatlar (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D50;bie_dbdisborc;50.Deposits (Archive);š€ AYLIK
+(M)Doviz Tevdiat Hesaplari (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D51;bie_dbdisborc;51.Foreign Exchange Deposit Accounts (Archive);š€ AYLIK
+(M)Dresdner Hesabi (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D52;bie_dbdisborc;52.Dresdner Bank Scheme (Archive);š€ AYLIK
+(M)DCM'ler (ArŸiv);01-10-1996;01-10-1983;last;TP.DB.D53;bie_dbdisborc;53.CTLD's (Archive);š€ AYLIK
+Maden Firmalarnn Altn šretim Bildirimleri(BIST) (Kg);01-12-2023;01-01-2008;avg;TP.URALTIN.ALTINKG;bie_uraltin;Gold Producton of Mining Companies Declaration(BIST) (Kg);AYLIK
+Yil Ortasi Nufus (Bin)(ArŸiv);01-01-2006;01-01-1968;last;TP.UR.K01;bie_urhkisi;Mid-year Population (1000)(Archive);YILLIK
+Cari Fiyatlarla GSMH (TL)(ArŸiv);01-01-2006;01-01-1968;last;TP.UR.K02;bie_urhkisi;In Current Prices GNP (TRY)(Archive);YILLIK
+Cari Fiyatlarla GSMH ($)(ArŸiv);01-01-2006;01-01-1968;last;TP.UR.K03;bie_urhkisi;In Current Prices GNP ($)(Archive);YILLIK
+1987 Sabit Fiyatlariyla GSMH (TL)(ArŸiv);01-01-2006;01-01-1968;last;TP.UR.K04;bie_urhkisi;At 1987 Prices GNP (TRY)(Archive);YILLIK
+Cari Fiyatlarla GSYIH (TL)(ArŸiv);01-01-2006;01-01-1968;last;TP.UR.K05;bie_urhkisi;In Current Prices GDP (TRY)(Archive);YILLIK
+Cari F˜yatlarla GSYIH ($)(ArŸiv);01-01-2006;01-01-1968;last;TP.UR.K06;bie_urhkisi;In Current Prices GDP ($)(Archive);YILLIK
+1987 Sabit Fiyatlariyla GSYIH (TL)(ArŸiv);01-01-2006;01-01-1968;last;TP.UR.K07;bie_urhkisi;At 1987 Prices GDP (TRY)(Archive);YILLIK
+T O P L A M (Bin TL) (ArŸiv);01-10-2021;01-01-2012;last;TP.PFVPBI01.K12;bie_PFVPBI01;T O T A L (Thousand TRY) (Archive);AYLIK
+IMF KRED˜LER˜ KULLANIMI (Bin TL) (ArŸiv);01-10-2021;01-01-2012;last;TP.PFVPBI01.K13;bie_PFVPBI01;USE OF IMF CREDIT (Thousand TRY) (Archive);AYLIK
+DI KRED˜LER (Bin TL) (ArŸiv);01-10-2021;01-01-2012;last;TP.PFVPBI01.K15;bie_PFVPBI01;FOREIGN CREDIT (Thousand TRY) (Archive);AYLIK
+T O P L A M (Bin TL) (ArŸiv);01-10-2021;01-01-2012;last;TP.PFVPBI01.K21;bie_PFVPBI01;T O T A L (Thousand TRY) (Archive);AYLIK
+Toplam sanayi;01-10-2023;01-01-2005;avg;TP.SANAYREV4.Y1;bie_sanayrev4;Total industry;AYLIK
+Toplam sanayi;01-11-2023;01-01-2005;avg;TP.SANAYREV11.Y1;bie_sanayrev11;Total industry;AYLIK
+1A.(Aritmetik Ortalama) Cari Ayn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.A.A;bie_urbek;1A.(Arithmetic Mean) Expectation of Monthly CPI for the Current Month (%);AYLIK
+1A.(En Byk) Cari Ayn TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.A.B;bie_urbek;1A.(Max) Expectation of Monthly CPI for the Current Month (%);AYLIK
+1A.(Mod) Cari Ayn TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.A.D;bie_urbek;1A.(Mode) Expectation of Monthly CPI for the Current Month (%);AYLIK
+1A.(En K‡k) Cari Ayn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.A.K;bie_urbek;1A.(Min) Expectation of Monthly CPI for the Current Month (%);AYLIK
+1A.(Medyan) Cari Ayn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.A.M;bie_urbek;1A.(Median) Expectation of Monthly CPI for the Current Month (%);AYLIK
+1A.(Standart Sapma) Cari Ayn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.A.S;bie_urbek;1A.(Standard Deviation) Expectation of Monthly CPI for the Current Month (%);AYLIK
+1A.(Uygun Ortalama) Cari Ayn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.A.U;bie_urbek;1A.(Modified Mean) Expectation of Monthly CPI for the Current Month (%);AYLIK
+1A.(G”zlem Says) Cari Ayn Aylk TšFE Beklentisi;01-01-2024;01-01-2013;last;TP.BEK.S01.A.X;bie_urbek;1A.(Num. of Observ.) Expectation of Monthly CPI for the Current Month;AYLIK
+1B.(Aritmetik Ortalama) 1 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.B.A;bie_urbek;1B.(Arithmetic Mean) Expectation of 1 Month Ahead Monthly CPI (%);AYLIK
+1B.(En Byk) 1 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.B.B;bie_urbek;1B.(Max) Expectation of 1 Month Ahead Monthly CPI (%);AYLIK
+1B.(Mod) 1 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.B.D;bie_urbek;1B.(Mode) Expectation of 1 Month Ahead Monthly CPI (%);AYLIK
+1B.(En K‡k) 1 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.B.K;bie_urbek;1B.(Min) Expectation of 1 Month Ahead Monthly CPI (%);AYLIK
+1B.(Medyan) 1 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.B.M;bie_urbek;1B.(Median) Expectation of 1 Month Ahead Monthly CPI (%);AYLIK
+1B.(Standart Sapma) 1 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.B.S;bie_urbek;1B.(Standard Deviation) Expectation of 1 Month Ahead Monthly CPI (%);AYLIK
+1B.(Uygun Ortalama) 1 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.B.U;bie_urbek;1B.(Modified Mean) Expectation of 1 Month Ahead Monthly CPI (%);AYLIK
+1B.(G”zlem Says) 1 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.B.X;bie_urbek;1B.(Num. of Observ.) Expectation of 1 Month Ahead Monthly CPI;AYLIK
+1C.(Aritmetik Ortalama) 2 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.C.A;bie_urbek;1C.(Arithmetic Mean) Expectation of 2 Months Ahead Monthly CPI (%);AYLIK
+1C.(En Byk) 2 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.C.B;bie_urbek;1C.(Max) Expectation of 2 Months Ahead Monthly CPI (%);AYLIK
+1C.(Mod) 2 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.C.D;bie_urbek;1C.(Mode) Expectation of 2 Months Ahead Monthly CPI (%);AYLIK
+1C.(En K‡k) 2 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.C.K;bie_urbek;1C.(Min) Expectation of 2 Months Ahead Monthly CPI (%);AYLIK
+1C.(Medyan) 2 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.C.M;bie_urbek;1C.(Median) Expectation of 2 Months Ahead Monthly CPI (%);AYLIK
+1C.(Standart Sapma) 2 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.C.S;bie_urbek;1C.(Standard Deviation) Expectation of 2 Months Ahead Monthly CPI (%);AYLIK
+1C.(Uygun Ortalama) 2 Ay Sonrasnn Aylk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.C.U;bie_urbek;1C.(Modified Mean) Expectation of 2 Months Ahead Monthly CPI (%);AYLIK
+1C.(G”zlem Says) 2 Ay Sonrasnn Aylk TšFE Beklentisi;01-01-2024;01-01-2013;last;TP.BEK.S01.C.X;bie_urbek;1C.(Num. of Observ.) Expectation of 2 Months Ahead Monthly CPI;AYLIK
+1D.(Aritmetik Ortalama) Cari Yl Sonu Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.D.A;bie_urbek;1D.(Arithmetic Mean) Expectation of Annual CPI by the End of the Current Year (%);AYLIK
+1D.(En Byk) Cari Yl Sonu Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.D.B;bie_urbek;1D.(Max) Expectation of Annual CPI by the End of the Current Year (%);AYLIK
+1D.(Mod) Cari Yl Sonu Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.D.D;bie_urbek;1D.(Mode) Expectation of Annual CPI by the End of the Current Year (%);AYLIK
+1D.(En K‡k) Cari Yl Sonu Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.D.K;bie_urbek;1D.(Min) Expectation of Annual CPI by the End of the Current Year (%);AYLIK
+1D.(Medyan) Cari Yl Sonu Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.D.M;bie_urbek;1D.(Median) Expectation of Annual CPI by the End of the Current Year (%);AYLIK
+1D.(Standart Sapma) Cari Yl Sonu Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.D.S;bie_urbek;1D.(Standard Deviation) Expectation of Annual CPI by the End of the Current Year (%);AYLIK
+1D.(Uygun Ortalama) Cari Yl Sonu Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.D.U;bie_urbek;1D.(Modified Mean) Expectation of Annual CPI by the End of the Current Year (%);AYLIK
+1D.(G”zlem Says) Cari Yl Sonu Yllk TšFE Beklentisi;01-01-2024;01-01-2013;last;TP.BEK.S01.D.X;bie_urbek;1D.(Num. of Observ.) Expectation of Annual CPI by the End of the Current Year;AYLIK
+1E.(Aritmetik Ortalama) 12 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.E.A;bie_urbek;1E.(Arithmetic Mean) Expectation of 12 Months Ahead Annual CPI (%);AYLIK
+1E.(En Byk) 12 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.E.B;bie_urbek;1E.(Max) Expectation of 12 Months Ahead Annual CPI (%);AYLIK
+1E.(Mod) 12 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.E.D;bie_urbek;1E.(Mode) Expectation of 12 Months Ahead Annual CPI (%);AYLIK
+1E.(En K‡k) 12 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.E.K;bie_urbek;1E.(Min) Expectation of 12 Months Ahead Annual CPI (%);AYLIK
+1E.(Medyan) 12 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.E.M;bie_urbek;1E.(Median) Expectation of 12 Months Ahead Annual CPI (%);AYLIK
+1E.(Standart Sapma) 12 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.E.S;bie_urbek;1E.(Standard Deviation) Expectation of 12 Months Ahead Annual CPI (%);AYLIK
+1E.(Uygun Ortalama) 12 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.E.U;bie_urbek;1E.(Modified Mean) Expectation of 12 Months Ahead Annual CPI (%);AYLIK
+1E.(G”zlem Says) 12 Ay Sonrasnn Yllk TšFE Beklentisi;01-01-2024;01-01-2013;last;TP.BEK.S01.E.X;bie_urbek;1E.(Num. of Observ.) Expectation of 12 Months Ahead Annual CPI;AYLIK
+1F.(Aritmetik Ortalama) 24 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.F.A;bie_urbek;1F.(Arithmetic Mean) Expectation of 24 Months Ahead Annual CPI (%);AYLIK
+1F.(En Byk) 24 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.F.B;bie_urbek;1F.(Max) Expectation of 24 Months Ahead Annual CPI (%);AYLIK
+1F.(Mod) 24 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.F.D;bie_urbek;1F.(Mode) Expectation of 24 Months Ahead Annual CPI (%);AYLIK
+1F.(En K‡k) 24 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.F.K;bie_urbek;1F.(Min) Expectation of 24 Months Ahead Annual CPI (%);AYLIK
+1F.(Medyan) 24 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.F.M;bie_urbek;1F.(Median) Expectation of 24 Months Ahead Annual CPI (%);AYLIK
+1F.(Standart Sapma) 24 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.F.S;bie_urbek;1F.(Standard Deviation) Expectation of 24 Months Ahead Annual CPI (%);AYLIK
+1F.(Uygun Ortalama) 24 Ay Sonrasnn Yllk TšFE Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S01.F.U;bie_urbek;1F.(Modified Mean) Expectation of 24 Months Ahead Annual CPI (%);AYLIK
+1F.(G”zlem Says) 24 Ay Sonrasnn Yllk TšFE Beklentisi;01-01-2024;01-01-2013;last;TP.BEK.S01.F.X;bie_urbek;1F.(Num. of Observ.) Expectation of 24 Months Ahead Annual CPI;AYLIK
+5A.(Aritmetik Ortalama) Cari Ay Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.A.A;bie_urbek;5A.(Arithmetic Mean) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Month (TRY);AYLIK
+5A.(En Byk) Cari Ay Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.A.B;bie_urbek;5A.(Max) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Month (TRY);AYLIK
+5A.(Mod) Cari Ay Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.A.D;bie_urbek;5A.(Mode) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Month (TRY);AYLIK
+5A.(En K‡k) Cari Ay Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.A.K;bie_urbek;5A.(Min) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Month (TRY);AYLIK
+5A.(Medyan) Cari Ay Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.A.M;bie_urbek;5A.(Median) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Month (TRY);AYLIK
+5A.(Standart Sapma) Cari Ay Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.A.S;bie_urbek;5A.(Standard Deviation) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Month (TRY);AYLIK
+5A.(Uygun Ortalama) Cari Ay Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.A.U;bie_urbek;5A.(Modified Mean) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Month (TRY);AYLIK
+5A.(G”zlem Says) Cari Ay Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi;01-01-2024;01-01-2013;last;TP.BEK.S05.A.X;bie_urbek;5A.(Num. of Observ.) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Month;AYLIK
+5B.(Aritmetik Ortalama) Cari Yl Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.B.A;bie_urbek;5B.(Arithmetic Mean) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Year (TRY);AYLIK
+5B.(En Byk) Cari Yl Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.B.B;bie_urbek;5B.(Max) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Year (TRY);AYLIK
+5B.(Mod) Cari Yl Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.B.D;bie_urbek;5B.(Mode) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Year (TRY);AYLIK
+5B.(En K‡k) Cari Yl Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.B.K;bie_urbek;5B.(Min) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Year (TRY);AYLIK
+5B.(Medyan) Cari Yl Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.B.M;bie_urbek;5B.(Median) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Year (TRY);AYLIK
+5B.(Standart Sapma) Cari Yl Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.B.S;bie_urbek;5B.(Standard Deviation) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Year (TRY);AYLIK
+5B.(Uygun Ortalama) Cari Yl Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.B.U;bie_urbek;5B.(Modified Mean) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Year (TRY);AYLIK
+5B.(G”zlem Says) Cari Yl Sonu Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi;01-01-2024;01-01-2013;last;TP.BEK.S05.B.X;bie_urbek;5B.(Num. of Observ.) Expectation of US Dollar Rate in the Interbank Foreign Exchange Market by the End of the Current Year;AYLIK
+5C.(Aritmetik Ortalama) 12 Ay Sonrasnn Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.C.A;bie_urbek;5C.(Arithmetic Mean) Expectation of 12 Months Ahead US Dollar Rate in the Interbank Foreign Exchange Market (TRY);AYLIK
+5C.(En Byk) 12 Ay Sonrasnn Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.C.B;bie_urbek;5C.(Max) Expectation of 12 Months Ahead US Dollar Rate in the Interbank Foreign Exchange Market (TRY);AYLIK
+5C.(Mod) 12 Ay Sonrasnn Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.C.D;bie_urbek;5C.(Mode) Expectation of 12 Months Ahead US Dollar Rate in the Interbank Foreign Exchange Market (TRY);AYLIK
+5C.(En K‡k) 12 Ay Sonrasnn Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.C.K;bie_urbek;5C.(Min) Expectation of 12 Months Ahead US Dollar Rate in the Interbank Foreign Exchange Market (TRY);AYLIK
+5C.(Medyan) 12 Ay Sonrasnn Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.C.M;bie_urbek;5C.(Median) Expectation of 12 Months Ahead US Dollar Rate in the Interbank Foreign Exchange Market (TRY);AYLIK
+5C.(Standart Sapma) 12 Ay Sonrasnn Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.C.S;bie_urbek;5C.(Standard Deviation) Expectation of 12 Months Ahead US Dollar Rate in the Interbank Foreign Exchange Market (TRY);AYLIK
+5C.(Uygun Ortalama) 12 Ay Sonrasnn Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi (TL);01-01-2024;01-01-2013;last;TP.BEK.S05.C.U;bie_urbek;5C.(Modified Mean) Expectation of 12 Months Ahead US Dollar Rate in the Interbank Foreign Exchange Market (TRY);AYLIK
+5C.(G”zlem Says) 12 Ay Sonrasnn Bankalararas D”viz Piyasas ABD Dolar Kuru Beklentisi;01-01-2024;01-01-2013;last;TP.BEK.S05.C.X;bie_urbek;5C.(Num. of Observ.) Expectation of 12 Months Ahead US Dollar Rate in the Interbank Foreign Exchange Market;AYLIK
+7A.(Aritmetik Ortalama) Cari Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.A.A;bie_urbek;7A.(Arithmetic Mean) Expectation of Annual GDP Growth Rate for the Current Year (%);AYLIK
+7A.(En Byk) Cari Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.A.B;bie_urbek;7A.(Max) Expectation of Annual GDP Growth Rate for the Current Year (%);AYLIK
+7A.(Mod) Cari Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.A.D;bie_urbek;7A.(Mode) Expectation of Annual GDP Growth Rate for the Current Year (%);AYLIK
+7A.(En K‡k) Cari Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.A.K;bie_urbek;7A.(Min) Expectation of Annual GDP Growth Rate for the Current Year (%);AYLIK
+7A.(Medyan) Cari Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.A.M;bie_urbek;7A.(Median) Expectation of Annual GDP Growth Rate for the Current Year (%);AYLIK
+7A.(Standart Sapma) Cari Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.A.S;bie_urbek;7A.(Standard Deviation) Expectation of Annual GDP Growth Rate for the Current Year (%);AYLIK
+7A.(Uygun Ortalama) Cari Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.A.U;bie_urbek;7A.(Modified Mean) Expectation of Annual GDP Growth Rate for the Current Year (%);AYLIK
+7A.(G”zlem Says) Cari Yln Yllk GSYH Byme Beklentisi;01-01-2024;01-01-2013;last;TP.BEK.S07.A.X;bie_urbek;7A.(Num. of Observ.) Expectation of Annual GDP Growth Rate for the Current Year;AYLIK
+7B.(Aritmetik Ortalama) Gelecek Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.B.A;bie_urbek;7B.(Arithmetic Mean) Expectation of Annual GDP Growth Rate for the Next Year (%);AYLIK
+7B.(En Byk) Gelecek Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.B.B;bie_urbek;7B.(Max) Expectation of Annual GDP Growth Rate for the Next Year (%);AYLIK
+7B.(Mod) Gelecek Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.B.D;bie_urbek;7B.(Mode) Expectation of Annual GDP Growth Rate for the Next Year (%);AYLIK
+7B.(En K‡k) Gelecek Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.B.K;bie_urbek;7B.(Min) Expectation of Annual GDP Growth Rate for the Next Year (%);AYLIK
+7B.(Medyan) Gelecek Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.B.M;bie_urbek;7B.(Median) Expectation of Annual GDP Growth Rate for the Next Year (%);AYLIK
+7B.(Standart Sapma) Gelecek Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.B.S;bie_urbek;7B.(Standard Deviation) Expectation of Annual GDP Growth Rate for the Next Year (%);AYLIK
+7B.(Uygun Ortalama) Gelecek Yln Yllk GSYH Byme Beklentisi (%);01-01-2024;01-01-2013;last;TP.BEK.S07.B.U;bie_urbek;7B.(Modified Mean) Expectation of Annual GDP Growth Rate for the Next Year (%);AYLIK
+7B.(G”zlem Says) Gelecek Yln Yllk GSYH Byme Beklentisi;01-01-2024;01-01-2013;last;TP.BEK.S07.B.X;bie_urbek;7B.(Num. of Observ.) Expectation of Annual GDP Growth Rate for the Next Year;AYLIK
+(G”zlem Says) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentilerinin Olaslk Da§lm;01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT1;bie_bekodtufe;(Num. of Observ.) Probability Distribution of 12 Months Ahead Annual Consumer Inflation Expectations;AYLIK
+(0.00_2.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT2;bie_bekodtufe;(0.00_2.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(3.00_3.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT3;bie_bekodtufe;(3.00_3.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(3.50_3.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT4;bie_bekodtufe;(3.50_3.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(4.00_4.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT5;bie_bekodtufe;(4.00_4.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(4.50_4.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT6;bie_bekodtufe;(4.50_4.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(5.00_5.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT7;bie_bekodtufe;(5.00_5.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(5.50_5.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT8;bie_bekodtufe;(5.50_5.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(6.00_6.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT9;bie_bekodtufe;(6.00_6.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(6.50_6.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT10;bie_bekodtufe;(6.50_6.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(7.00_7.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT11;bie_bekodtufe;(7.00_7.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(7.50_7.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT12;bie_bekodtufe;(7.50_7.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(8.00_8.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT13;bie_bekodtufe;(8.00_8.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(8.50_8.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT14;bie_bekodtufe;(8.50_8.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(9.00_9.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT15;bie_bekodtufe;(9.00_9.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(9.50_9.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT16;bie_bekodtufe;(9.50_9.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(10.00_10.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT17;bie_bekodtufe;(10.00_10.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(10.50_10.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT18;bie_bekodtufe;(10.50_10.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(11.00_11.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT19;bie_bekodtufe;(11.00_11.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(11.50_11.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT20;bie_bekodtufe;(11.50_11.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(12.00_12.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT21;bie_bekodtufe;(12.00_12.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(12.50_12.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT22;bie_bekodtufe;(12.50_12.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(13.00_13.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT23;bie_bekodtufe;(13.00_13.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(13.50_13.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT24;bie_bekodtufe;(13.50_13.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(14.00_14.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT25;bie_bekodtufe;(14.00_14.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(14.50_14.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT26;bie_bekodtufe;(14.50_14.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(15.00_15.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT27;bie_bekodtufe;(15.00_15.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(15.50_15.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT28;bie_bekodtufe;(15.50_15.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(16.00_16.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT29;bie_bekodtufe;(16.00_16.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(16.50_16.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT30;bie_bekodtufe;(16.50_16.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(17.00_17.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT31;bie_bekodtufe;(17.00_17.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(17.50_17.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT32;bie_bekodtufe;(17.50_17.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(18.00_18.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT33;bie_bekodtufe;(18.00_18.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(18.50_18.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT34;bie_bekodtufe;(18.50_18.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(19.00_19.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT35;bie_bekodtufe;(19.00_19.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(19.50_19.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT36;bie_bekodtufe;(19.50_19.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(20.00_20.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT37;bie_bekodtufe;(20.00_20.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(G”zlem Says) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentilerinin Olaslk Da§lm;01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT38;bie_bekodtufe;(Num. of Observ.) Probability Distribution of 24 Months Ahead Annual Consumer Inflation Expectations;AYLIK
+(0.00_2.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT39;bie_bekodtufe;(0.00_2.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(3.00_3.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT40;bie_bekodtufe;(3.00_3.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(3.50_3.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT41;bie_bekodtufe;(3.50_3.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(4.00_4.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT42;bie_bekodtufe;(4.00_4.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(4.50_4.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT43;bie_bekodtufe;(4.50_4.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(5.00_5.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT44;bie_bekodtufe;(5.00_5.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(5.50_5.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT45;bie_bekodtufe;(5.50_5.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(6.00_6.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT46;bie_bekodtufe;(6.00_6.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(6.50_6.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT47;bie_bekodtufe;(6.50_6.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(7.00_7.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT48;bie_bekodtufe;(7.00_7.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(7.50_7.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT49;bie_bekodtufe;(7.50_7.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(8.00_8.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT50;bie_bekodtufe;(8.00_8.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(8.50_8.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT51;bie_bekodtufe;(8.50_8.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(9.00_9.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT52;bie_bekodtufe;(9.00_9.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(9.50_9.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT53;bie_bekodtufe;(9.50_9.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(10.00_10.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT54;bie_bekodtufe;(10.00_10.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(10.50_10.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT55;bie_bekodtufe;(10.50_10.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(11.00_11.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT56;bie_bekodtufe;(11.00_11.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(11.50_11.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT57;bie_bekodtufe;(11.50_11.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(12.00_12.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT58;bie_bekodtufe;(12.00_12.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(12.50_12.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT59;bie_bekodtufe;(12.50_12.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(13.00_13.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT60;bie_bekodtufe;(13.00_13.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(13.50_13.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT61;bie_bekodtufe;(13.50_13.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(14.00_14.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT62;bie_bekodtufe;(14.00_14.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(14.50_14.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT63;bie_bekodtufe;(14.50_14.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(15.00_15.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT64;bie_bekodtufe;(15.00_15.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(15.50_15.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT65;bie_bekodtufe;(15.50_15.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(16.00_16.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT66;bie_bekodtufe;(16.00_16.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(16.50_16.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT67;bie_bekodtufe;(16.50_16.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(17.00_17.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT68;bie_bekodtufe;(17.00_17.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(17.50_17.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT69;bie_bekodtufe;(17.50_17.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(18.00_18.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT70;bie_bekodtufe;(18.00_18.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(18.50_18.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT71;bie_bekodtufe;(18.50_18.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(19.00_19.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT72;bie_bekodtufe;(19.00_19.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(19.50_19.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT73;bie_bekodtufe;(19.50_19.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(20.00_20.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT74;bie_bekodtufe;(20.00_20.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(20.50_20.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT75;bie_bekodtufe;(20.50_20.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(21.00_21.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT76;bie_bekodtufe;(21.00_21.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(21.50_21.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT77;bie_bekodtufe;(21.50_21.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(22.00_22.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT78;bie_bekodtufe;(22.00_22.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(22.50_22.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT79;bie_bekodtufe;(22.50_22.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(23.00_23.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT80;bie_bekodtufe;(23.00_23.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(23.50_23.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT81;bie_bekodtufe;(23.50_23.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(24.00_24.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT82;bie_bekodtufe;(24.00_24.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(24.50_24.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT83;bie_bekodtufe;(24.50_24.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(25.00_25.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT84;bie_bekodtufe;(25.00_25.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(25.50_25.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT85;bie_bekodtufe;(25.50_25.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(26.00_26.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT86;bie_bekodtufe;(26.00_26.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(26.50_26.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT87;bie_bekodtufe;(26.50_26.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(27.00_27.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT88;bie_bekodtufe;(27.00_27.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(27.50_27.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT89;bie_bekodtufe;(27.50_27.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(28.00_28.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT90;bie_bekodtufe;(28.00_28.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(28.50_28.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT91;bie_bekodtufe;(28.50_28.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(29.00_29.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT92;bie_bekodtufe;(29.00_29.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(29.50_29.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT93;bie_bekodtufe;(29.50_29.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(30.00_30.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT94;bie_bekodtufe;(30.00_30.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(30.50_30.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT95;bie_bekodtufe;(30.50_30.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(31.00_31.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT96;bie_bekodtufe;(31.00_31.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(31.50_31.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT97;bie_bekodtufe;(31.50_31.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(32.00_32.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT98;bie_bekodtufe;(32.00_32.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(32.50_32.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT99;bie_bekodtufe;(32.50_32.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(33.00_33.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT100;bie_bekodtufe;(33.00_33.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(33.50_33.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT101;bie_bekodtufe;(33.50_33.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(34.00_34.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT102;bie_bekodtufe;(34.00_34.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(34.50_34.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT103;bie_bekodtufe;(34.50_34.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(35.00_35.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT104;bie_bekodtufe;(35.00_35.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(35.50_35.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT105;bie_bekodtufe;(35.50_35.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(36.00_36.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT106;bie_bekodtufe;(36.00_36.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(36.50_36.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT107;bie_bekodtufe;(36.50_36.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(37.00_37.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT108;bie_bekodtufe;(37.00_37.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(37.50_37.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT109;bie_bekodtufe;(37.50_37.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(38.00_38.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT110;bie_bekodtufe;(38.00_38.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(38.50_38.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT111;bie_bekodtufe;(38.50_38.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(39.00_39.49) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT112;bie_bekodtufe;(39.00_39.49) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(39.50_39.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT113;bie_bekodtufe;(39.50_39.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(>=40.00) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-06-2013;last;TP.BEKODTUFE.BT114;bie_bekodtufe;(>=40.00) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(20.50_20.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT115;bie_bekodtufe;(20.50_20.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(21.00_21.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT116;bie_bekodtufe;(21.00_21.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(21.50_21.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT117;bie_bekodtufe;(21.50_21.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(22.00_22.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT118;bie_bekodtufe;(22.00_22.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(22.50_22.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT119;bie_bekodtufe;(22.50_22.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(23.00_23.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT120;bie_bekodtufe;(23.00_23.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(23.50_23.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT121;bie_bekodtufe;(23.50_23.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(24.00_24.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT122;bie_bekodtufe;(24.00_24.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(24.50_24.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT123;bie_bekodtufe;(24.50_24.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(25.00_25.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT124;bie_bekodtufe;(25.00_25.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(25.50_25.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT125;bie_bekodtufe;(25.50_25.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(26.00_26.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT126;bie_bekodtufe;(26.00_26.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(26.50_26.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT127;bie_bekodtufe;(26.50_26.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(27.00_27.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT128;bie_bekodtufe;(27.00_27.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(27.50_27.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT129;bie_bekodtufe;(27.50_27.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(28.00_28.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT130;bie_bekodtufe;(28.00_28.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(28.50_28.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT131;bie_bekodtufe;(28.50_28.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(29.00_29.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT132;bie_bekodtufe;(29.00_29.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(29.50_29.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT133;bie_bekodtufe;(29.50_29.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(30.00_30.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT134;bie_bekodtufe;(30.00_30.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(30.50_30.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT135;bie_bekodtufe;(30.50_30.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(31.00_31.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT136;bie_bekodtufe;(31.00_31.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(31.50_31.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT137;bie_bekodtufe;(31.50_31.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(32.00_32.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT138;bie_bekodtufe;(32.00_32.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(32.50_32.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT139;bie_bekodtufe;(32.50_32.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(33.00_33.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT140;bie_bekodtufe;(33.00_33.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(33.50_33.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT141;bie_bekodtufe;(33.50_33.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(34.00_34.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT142;bie_bekodtufe;(34.00_34.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(34.50_34.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT143;bie_bekodtufe;(34.50_34.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(35.00_35.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT144;bie_bekodtufe;(35.00_35.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(35.50_35.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT145;bie_bekodtufe;(35.50_35.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(36.00_36.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT146;bie_bekodtufe;(36.00_36.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(36.50_36.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT147;bie_bekodtufe;(36.50_36.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(37.00_37.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT148;bie_bekodtufe;(37.00_37.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(37.50_37.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT149;bie_bekodtufe;(37.50_37.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(38.00_38.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT150;bie_bekodtufe;(38.00_38.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(38.50_38.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT151;bie_bekodtufe;(38.50_38.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(39.00_39.49) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT152;bie_bekodtufe;(39.00_39.49) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(39.50_39.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT153;bie_bekodtufe;(39.50_39.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(>=40.00) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-11-2023;01-11-2017;last;TP.BEKODTUFE.BT154;bie_bekodtufe;(>=40.00) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(G”zlem Says) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentilerinin Olaslk Da§lm;01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT1;bie_bekodtufeyeni;(Num. of Observ.) Probability Distribution of 12 Months Ahead Annual Consumer Inflation Expectations;AYLIK
+(0.00-2.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT2;bie_bekodtufeyeni;(0.00-2.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(3.00-3.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT3;bie_bekodtufeyeni;(3.00-3.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(4.00-4.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT4;bie_bekodtufeyeni;(4.00-4.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(5.00-5.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT5;bie_bekodtufeyeni;(5.00-5.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(6.00-6.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT6;bie_bekodtufeyeni;(6.00-6.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(7.00-7.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT7;bie_bekodtufeyeni;(7.00-7.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(8.00-8.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT8;bie_bekodtufeyeni;(8.00-8.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(9.00-9.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT9;bie_bekodtufeyeni;(9.00-9.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(10.00-10.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT10;bie_bekodtufeyeni;(10.00-10.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(11.00-11.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT11;bie_bekodtufeyeni;(11.00-11.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(12.00-12.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT12;bie_bekodtufeyeni;(12.00-12.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(13.00-13.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT13;bie_bekodtufeyeni;(13.00-13.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(14.00-14.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT14;bie_bekodtufeyeni;(14.00-14.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(15.00-15.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT15;bie_bekodtufeyeni;(15.00-15.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(16.00-16.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT16;bie_bekodtufeyeni;(16.00-16.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(17.00-17.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT17;bie_bekodtufeyeni;(17.00-17.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(18.00-18.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT18;bie_bekodtufeyeni;(18.00-18.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(19.00-19.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT19;bie_bekodtufeyeni;(19.00-19.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(20.00-20.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT20;bie_bekodtufeyeni;(20.00-20.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(21.00-21.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT21;bie_bekodtufeyeni;(21.00-21.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(22.00-22.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT22;bie_bekodtufeyeni;(22.00-22.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(23.00-23.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT23;bie_bekodtufeyeni;(23.00-23.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(24.00-24.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT24;bie_bekodtufeyeni;(24.00-24.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(25.00-25.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT25;bie_bekodtufeyeni;(25.00-25.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(26.00-26.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT26;bie_bekodtufeyeni;(26.00-26.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(27.00-27.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT27;bie_bekodtufeyeni;(27.00-27.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(28.00-28.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT28;bie_bekodtufeyeni;(28.00-28.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(29.00-29.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT29;bie_bekodtufeyeni;(29.00-29.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(30.00-30.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT30;bie_bekodtufeyeni;(30.00-30.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(31.00-31.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT31;bie_bekodtufeyeni;(31.00-31.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(32.00-32.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT32;bie_bekodtufeyeni;(32.00-32.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(33.00-33.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT33;bie_bekodtufeyeni;(33.00-33.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(34.00-34.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT34;bie_bekodtufeyeni;(34.00-34.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(35.00-35.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT35;bie_bekodtufeyeni;(35.00-35.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(36.00-36.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT36;bie_bekodtufeyeni;(36.00-36.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(37.00-37.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT37;bie_bekodtufeyeni;(37.00-37.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(38.00-38.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT38;bie_bekodtufeyeni;(38.00-38.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(39.00-39.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT39;bie_bekodtufeyeni;(39.00-39.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(40.00-40.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT40;bie_bekodtufeyeni;(40.00-40.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(41.00-41.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT41;bie_bekodtufeyeni;(41.00-41.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(42.00-42.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT42;bie_bekodtufeyeni;(42.00-42.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(43.00-43.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT43;bie_bekodtufeyeni;(43.00-43.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(44.00-44.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT44;bie_bekodtufeyeni;(44.00-44.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(45.00-45.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT45;bie_bekodtufeyeni;(45.00-45.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(46.00-46.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT46;bie_bekodtufeyeni;(46.00-46.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(47.00-47.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT47;bie_bekodtufeyeni;(47.00-47.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(48.00-48.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT48;bie_bekodtufeyeni;(48.00-48.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(49.00-49.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT49;bie_bekodtufeyeni;(49.00-49.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(50.00-50.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT50;bie_bekodtufeyeni;(50.00-50.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(51.00-51.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT51;bie_bekodtufeyeni;(51.00-51.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(52.00-52.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT52;bie_bekodtufeyeni;(52.00-52.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(53.00-53.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT53;bie_bekodtufeyeni;(53.00-53.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(54.00-54.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT54;bie_bekodtufeyeni;(54.00-54.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(55.00-55.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT55;bie_bekodtufeyeni;(55.00-55.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(56.00-56.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT56;bie_bekodtufeyeni;(56.00-56.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(57.00-57.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT57;bie_bekodtufeyeni;(57.00-57.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(58.00-58.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT58;bie_bekodtufeyeni;(58.00-58.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(59.00-59.99) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT59;bie_bekodtufeyeni;(59.00-59.99) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(>=60.00) 12 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT60;bie_bekodtufeyeni;(>=60.00) Probability of 12 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(G”zlem Says) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentilerinin Olaslk Da§lm;01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT61;bie_bekodtufeyeni;(Num. of Observ.) Probability Distribution of 24 Months Ahead Annual Consumer Inflation Expectations;AYLIK
+(0.00-2.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT62;bie_bekodtufeyeni;(0.00-2.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(3.00-3.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT63;bie_bekodtufeyeni;(3.00-3.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(4.00-4.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT64;bie_bekodtufeyeni;(4.00-4.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(5.00-5.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT65;bie_bekodtufeyeni;(5.00-5.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(6.00-6.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT66;bie_bekodtufeyeni;(6.00-6.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(7.00-7.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT67;bie_bekodtufeyeni;(7.00-7.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(8.00-8.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT68;bie_bekodtufeyeni;(8.00-8.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(9.00-9.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT69;bie_bekodtufeyeni;(9.00-9.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(10.00-10.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT70;bie_bekodtufeyeni;(10.00-10.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(11.00-11.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT71;bie_bekodtufeyeni;(11.00-11.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(12.00-12.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT72;bie_bekodtufeyeni;(12.00-12.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(13.00-13.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT73;bie_bekodtufeyeni;(13.00-13.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(14.00-14.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT74;bie_bekodtufeyeni;(14.00-14.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(15.00-15.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT75;bie_bekodtufeyeni;(15.00-15.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(16.00-16.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT76;bie_bekodtufeyeni;(16.00-16.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(17.00-17.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT77;bie_bekodtufeyeni;(17.00-17.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(18.00-18.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT78;bie_bekodtufeyeni;(18.00-18.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(19.00-19.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT79;bie_bekodtufeyeni;(19.00-19.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(20.00-20.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT80;bie_bekodtufeyeni;(20.00-20.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(21.00-21.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT81;bie_bekodtufeyeni;(21.00-21.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(22.00-22.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT82;bie_bekodtufeyeni;(22.00-22.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(23.00-23.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT83;bie_bekodtufeyeni;(23.00-23.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(24.00-24.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT84;bie_bekodtufeyeni;(24.00-24.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(25.00-25.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT85;bie_bekodtufeyeni;(25.00-25.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(26.00-26.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT86;bie_bekodtufeyeni;(26.00-26.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(27.00-27.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT87;bie_bekodtufeyeni;(27.00-27.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(28.00-28.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT88;bie_bekodtufeyeni;(28.00-28.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(29.00-29.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT89;bie_bekodtufeyeni;(29.00-29.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(30.00-30.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT90;bie_bekodtufeyeni;(30.00-30.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(31.00-31.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT91;bie_bekodtufeyeni;(31.00-31.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(32.00-32.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT92;bie_bekodtufeyeni;(32.00-32.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(33.00-33.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT93;bie_bekodtufeyeni;(33.00-33.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(34.00-34.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT94;bie_bekodtufeyeni;(34.00-34.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(35.00-35.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT95;bie_bekodtufeyeni;(35.00-35.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(36.00-36.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT96;bie_bekodtufeyeni;(36.00-36.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(37.00-37.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT97;bie_bekodtufeyeni;(37.00-37.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(38.00-38.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT98;bie_bekodtufeyeni;(38.00-38.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(39.00-39.99) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT99;bie_bekodtufeyeni;(39.00-39.99) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+(>=40.00) 24 Ay Sonras Yllk Tketici Enflasyonu Beklentisi Olasl§ (%);01-01-2024;01-01-2022;last;TP.BEKODTUFEYENI.BT100;bie_bekodtufeyeni;(>=40.00) Probability of 24 Months Ahead Annual Consumer Inflation Expectation (%);AYLIK
+15 ve daha yukar yaŸtaki nfus(ArŸiv);01-11-2020;01-01-2005;last;TP.ISGUCARSIV.G1;bie_isgucarsiv;Population 15 years and over(Archive);AYLIK
+˜Ÿgc(ArŸiv);01-11-2020;01-01-2005;last;TP.ISGUCARSIV.G2;bie_isgucarsiv;Labour Force(Archive);AYLIK
+˜stihdam edilenler(ArŸiv);01-11-2020;01-01-2005;last;TP.ISGUCARSIV.G3;bie_isgucarsiv;Employed(Archive);AYLIK
+˜Ÿsiz(ArŸiv);01-11-2020;01-01-2005;last;TP.ISGUCARSIV.G4;bie_isgucarsiv;Unemployed(Archive);AYLIK
+˜Ÿgcne dahil olmayan nfus(ArŸiv);01-11-2020;01-01-2005;last;TP.ISGUCARSIV.G5;bie_isgucarsiv;Not in labour force(Archive);AYLIK
+˜Ÿgcne katlma oran (%)(ArŸiv);01-11-2020;01-01-2005;last;TP.ISGUCARSIV.G6;bie_isgucarsiv;Labour force participation rate (%)(Archive);AYLIK
+˜Ÿsizlik oran (%)(ArŸiv);01-11-2020;01-01-2005;last;TP.ISGUCARSIV.G7;bie_isgucarsiv;Unemployment rate (%)(Archive);AYLIK
+Tarm dŸ iŸsizlik oran (%)(ArŸiv);01-11-2020;01-01-2005;last;TP.ISGUCARSIV.G8;bie_isgucarsiv;Non agricultural unemployment rate (%)(Archive);AYLIK
+˜stihdam oran (%)(ArŸiv);01-11-2020;01-01-2005;last;TP.ISGUCARSIV.G9;bie_isgucarsiv;Employment rate (%)(Archive);AYLIK

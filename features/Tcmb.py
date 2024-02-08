@@ -31,7 +31,7 @@ class Tcmb:
         self.categoryList = categoryList
         
     def write_data_into_excel_file(fileName, sheetNameList, dataList, writingMode = "w"):
-        """creates an
+        """Writes list of data into excel sheets with given sheet names list
         Parameters
         ----------
         fileName : str
@@ -46,25 +46,30 @@ class Tcmb:
         -------
         
         """
-        for i in range (0,len(dataList)):
+        if len(dataList) == len(sheetNameList):
+            for i in range (0,len(dataList)):
+                if os.path.exists(fileName+".xlsx"):
+                    with pd.ExcelWriter(fileName+".xlsx", mode='a', engine="openpyxl", if_sheet_exists="overlay") as writer:
+                        dataList[i].to_excel(writer, sheet_name=sheetNameList[i])  
+                else:
+                    with pd.ExcelWriter(fileName+".xlsx") as writer:
+                        dataList[i].to_excel(writer, sheet_name=sheetNameList[i])
+        else:
+            raise Exception("Element numbers in sheetNamesList and dataList should be equal!")
 
-            if os.path.exists(fileName+".xlsx"):
-                with pd.ExcelWriter(fileName+".xlsx", mode='a', engine="openpyxl", if_sheet_exists="overlay") as writer:
-                    dataList[i].to_excel(writer, sheet_name=sheetNameList[i])  
-            else:
-                with pd.ExcelWriter(fileName+".xlsx") as writer:
-                    dataList[i].to_excel(writer, sheet_name=sheetNameList[i])
     
-    def getDataGroupInfo(self):
-        """Returns all the info related to TCMB EVDS data Groups. These are the Data you can get from EVDS""" 
-        data = pd.read_csv("https://evds2.tcmb.gov.tr/service/evds/datagroups/key="+self.apiKey+"&mode=0&type=csv")
-        return data
-    def getDataNames(self):
-        """Gets name of each Data Groups in TCMB EVDS"""
-        ana_veri = self.getDataGroupInfo()
-        groupNamesEng = ana_veri.columns
-        return groupNamesEng
+   
     def update_evds_data(apiKey):
+        """Updates the excel file and sheets of the excel file according to the current EVDS data
+        Parameters
+        ----------
+        apiKey : str
+            Personal Api Key
+        
+        Returns
+        -------
+
+        """
         
         categoryData, columnLabelList = Category.get_category_infos_from_evds("xyh5URAL0e")
         groupData, columnLabelList2 = DataGroup.get_dataGroup_infos_from_evds("xyh5URAL0e") 
@@ -153,7 +158,6 @@ class Category:
         ----------
         apiKey : str
             Personal Api Key
-        
         Returns
         -------
         data : pandas.DataFrame
@@ -163,7 +167,6 @@ class Category:
         """
         data = pd.read_csv("https://evds2.tcmb.gov.tr/service/evds/categories/key="+apiKey+"&type=csv")
         columnLabelList = data.columns.values.tolist()
-        
         return data, columnLabelList
 
     def return_dataFrame_into_category_list(categoriesDataFrame, idColumnName, engTitleColumnName, turTitleColumnName):
@@ -296,28 +299,24 @@ class DataGroup:
         self.endDate = endDate
         self.dataSerieList = list()
         DataGroup.dataGroupList.append(self)
-    def get_category_of_dataGroup(self):
-        pass
-    
+        
     def format_dataGroup_dataFrame(data):
-        """formats given dataFrame of DataGroup infos in order it to have compatible Category ids' with Category class objects.
+        """Formats given dataFrame of DataGroup infos in order it to have compatible Category ids' with Category class objects.
         
         Problem: when you get the DataGroup Info from EVDS as .csv file it returns category id's as "1" and not "1.0"
         But when you get the Category Info from EVDS category ids' come as "1.0, 2.0 etc"
         In order to get standard category ids with both classes this method does following steps:
-        1) changes dataFrame's CATEGORY_ID columns data type to string
-        2.1) loops through data and checks each row of 'CATEGORY_ID' column if it contains '.'
-        2.2) if not adds '.0' at the end of the CATEGORY_ID string
-        """
         
-        data.loc[:, ["CATEGORY_ID"]] = data.loc[:, ["CATEGORY_ID"]].astype(str) #Step 1
+        1.1) loops through data and checks each row of 'CATEGORY_ID' column if it contains '.'
+        1.2) if not adds '.0' at the end of the CATEGORY_ID string
+        """
         for i in range(0,len(data)):
             
-            if "." not in data.loc[i, "CATEGORY_ID"]: #step 2.1
+            if "." not in data.loc[i, "CATEGORY_ID"]: #step 1.1
 
                 dataString = data.loc[i, "CATEGORY_ID"] + ".0" 
                 
-                data.loc[i, "CATEGORY_ID"] = dataString #step 2.2
+                data.loc[i, "CATEGORY_ID"] = dataString #step 1.2
                    
     def get_dataGroup_infos_from_evds(apiKey, dropLabels = True):
         """Gets infos of all the Data Groups listed in EVDS
@@ -372,13 +371,12 @@ class DataGroup:
         dataGroupList : list()
             list of created dataGroups
         """
-        dataGroupList = list()
-        
+        dataGroupList = list()      
         for i in range(0,len(dataGroupDataFrame)):
             newDataGroup= DataGroup(str(dataGroupDataFrame[catIdColumnLabel].iloc[i]), str(dataGroupDataFrame[codeColumnLabel].iloc[i]), str(dataGroupDataFrame[nameTrColumnLabel].iloc[i]), str(dataGroupDataFrame[nameEngColumnLabel].iloc[i]), str(dataGroupDataFrame[frqStrColumnLabel].iloc[i]), str(dataGroupDataFrame[frqColumnLabel].iloc[i]), str(dataGroupDataFrame[startDateColumnLabel].iloc[i]), str(dataGroupDataFrame[endDateColumnLabel].iloc[i]))
             dataGroupList.append(newDataGroup)
-
         return dataGroupList
+    
     def get_data_groups_by_categoryId(evdsCategoryId, dataGroupList):
         """returns list of DataGroup objects which belong to the Category given by the evdsCategoryId.
         Parameters
@@ -407,16 +405,14 @@ class DataGroup:
         
         Returns
         ----------
-
         categotyList : list()
             list of newly created categories 
-
-        
         """
         categotyList = list()
         for categoryId in categoryIdsToCreate:
             categotyList.append(Category(categoryId))
         return categotyList
+    
     def match_dataGroupList_items_with_Categories(dataGroupList, categoryDataFrame):
         """Takes a list which contains DataGroup objects and adds each DataGroup object in the list
         to the object's category.dataGroupList
@@ -426,16 +422,16 @@ class DataGroup:
             list to be searched for categories and matched
         categoryDataFrame : pandas.dataFrame
             data frame of Category infos from EVDS
+        
         Note: 
 
         categoryDataFrame variable will be updated just in case if you get a new category id  when you request Data Group info from EVDS.
-        Reason: at 08.Feb.2024 when you request all the Data Groups from EVDS as . csv file you get category id = 0 for some Data Groups.
+        Reason: (08.Feb.2024) when you request all the Data Groups from EVDS as . csv file you get category id = 0 for some Data Groups.
         But when you request all the Category infos from EVDS as .csv you don't get any category with id = 0. But the data in category id is important. 
         So this category with id = 0 or any category which is not in the EVDS category list are created with this function.
         """
         categoryIdsToCreate = list()
         
-
         for grp in dataGroupList:
             cat, index = Category.get_category_by_id_in_a_list(grp.categoryId, Category.categoryList)
             if cat is not None:
@@ -456,7 +452,6 @@ class DataGroup:
         else:
             return categoryDataFrame
             
-
 class DataSerie:
     """DataSerie is the sub-category of a DataGroup. For each DataGroup there can be several DataSeries. 
     Each data serie has a unique code. For example: 'TP.MK.CUM.YTL' is the unique code of the data serie Cumhuriyet Gold Selling Price (TRY/Number) (Archive)
@@ -543,7 +538,10 @@ class DataSerie:
             Personal Api Key
         dataGroupList : list()
             List that counatains all the unique Data group codes in EVDS database
-
+        dropLabels : boolean
+            Not mandatory. Default value is True.
+            drops following columns from the data recieved from EVDS:
+            ["DEFAULT_AGG_METHOD_STR", "TAG", "TAG_ENG", "DATASOURCE", "DATASOURCE_ENG", "METADATA_LINK", "METADATA_LINK_ENG", "REV_POL_LINK", "REV_POL_LINK_ENG", "APP_CHA_LINK", "APP_CHA_LINK_ENG"]
         Returns
         -------
         data : pandas.DataFrame
@@ -568,7 +566,8 @@ class DataSerie:
             if group.code not in serieList:
                 groupData = DataSerie.get_dataSerie_infos_of_dataGroup(apiKey, group.code)
                 if not isinstance(groupData,str):
-                    groupData = groupData.drop(["DEFAULT_AGG_METHOD_STR", "TAG", "TAG_ENG", "DATASOURCE", "DATASOURCE_ENG", "METADATA_LINK", "METADATA_LINK_ENG", "REV_POL_LINK", "REV_POL_LINK_ENG", "APP_CHA_LINK", "APP_CHA_LINK_ENG"],  axis= 'columns')
+                    if dropLabels:
+                        groupData = groupData.drop(["DEFAULT_AGG_METHOD_STR", "TAG", "TAG_ENG", "DATASOURCE", "DATASOURCE_ENG", "METADATA_LINK", "METADATA_LINK_ENG", "REV_POL_LINK", "REV_POL_LINK_ENG", "APP_CHA_LINK", "APP_CHA_LINK_ENG"],  axis= 'columns')
                     if os.path.exists(fileName):
                         headerWriting = False
                     groupData.to_csv(fileName, sep=';', header=headerWriting, index=False, mode='a', encoding='utf-8')
@@ -606,7 +605,7 @@ class DataSerie:
                 return dataSerie
            
 
-    def get_data_from_evds_with_dataSerie_code(apiKey, dataSerieCode, allData = False, startDay=None, startMonth=None, startYear=None, endDay=None, endMonth=None, endYear=None):
+    def get_data_from_evds_with_dataSerie_code(apiKey, dataSerieCode, startDay=None, startMonth=None, startYear=None, endDay=None, endMonth=None, endYear=None):
         """
         Gets a DataSerie object, and returns it's data as pandas.Dataframe object between given start date and end date.
         Parameters
@@ -661,10 +660,7 @@ class DataSerie:
             sDate = startDay + "-" + startMonth + "-" + startYear
             eDate = endDay + "-" + endMonth + "-" + endYear
             evds = evdsAPI(apiKey) 
-            print("found data serie name: "+ dataSerie.titleEng)
-            
             data = evds.get_data([dataSerie.code], startdate=sDate, enddate=eDate)  
-                
             return data
         else:
             return None

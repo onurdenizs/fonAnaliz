@@ -7,8 +7,10 @@ from features.Tcmb import *
 
 
 class DataGetter:
-    """this class establishes connections between local data files and EVDS online database systems
+    """This class establishes connections between local data files and EVDS online database systems
     """
+    def __init__(self) -> None:
+         pass
     def initalizeDataSerie(TcmbObject):
         """
         """
@@ -29,7 +31,8 @@ class DataGetter:
                     data.to_csv(dataFilePath, sep=";")
         print("Series initialization Completed")
 myTcmb = Tcmb(apiKey="xyh5URAL0e") 
-DataGetter.initalizeDataSerie(myTcmb)     
+DataGetter.initalizeDataSerie(myTcmb)
+
 
         
 
